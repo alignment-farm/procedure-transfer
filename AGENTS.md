@@ -24,9 +24,19 @@ supplies theory and synthesis; it is not a mandatory experimental protocol.
   Preserve exploratory changes and failures; use fresh evaluation material and
   a selection rule fixed before evaluating a developed claim.
 - Keep notes proportional to the question. The study owns its implementation,
-  protocol, resource sizing and repairs. A negative result or a source-based
-  explanation can be a complete useful contribution. Publish locally with
-  supporting evidence and identifiable Git revisions.
+  protocol, resource sizing and repairs. A negative result alone is not a stop
+  condition. When acquisition has not worked, pursue bounded diagnostic
+  development to distinguish causes or establish a functioning learning regime.
+  Calibration on separate development material is legitimate; finite gradients
+  and exact resets establish mechanics, not acquisition. Publish findings and
+  failed attempts with supporting evidence and identifiable Git revisions.
+
+The user accepted the first publication on 14 September 2026 and asked for less
+acceptance of unresolved learning failures. Follow the README's current
+diagnostic direction. Preserve the accepted comparison and frozen protocol;
+evaluate a subsequently developed transfer claim on fresh material. Close a
+phase on explanatory progress, a demonstrated limitation or a concrete resource
+constraint, without requiring a neural advantage or an indefinite search.
 
 ## Model resources
 

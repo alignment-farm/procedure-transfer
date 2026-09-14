@@ -1,6 +1,7 @@
 # Procedure transfer
 
-**Status: bounded investigation complete, 14 September 2026.**
+**Status: first publication accepted; acquisition diagnosis remains active,
+14 September 2026.**
 
 **The tested evidence-conditioned distillation recipe did not improve transfer.**
 On-policy students scored 0/96 and 2/96 on fresh inputs, versus direct imitation's
@@ -9,7 +10,8 @@ generic reminder scored 89/96. Both distillation variants also had poor training
 recall. These are local results for one shared LoRA recipe, not a general
 limitation of context distillation.
 
-- [FINDINGS.md](FINDINGS.md): local publication, interpretation, scope and stop decision.
+- [FINDINGS.md](FINDINGS.md): accepted first publication, including the scope and
+  stop decision for that completed comparison.
 - [Frozen protocol](protocol/transfer-v1.md), committed as `5f636fb` before the prospective run.
 - [Audited results](evidence/transfer-v1-analysis/README.md), [raw responses](evidence/transfer-v1/responses.jsonl),
   and [saved-adapter audit](evidence/transfer-v1-reload-audit/audit.json), preserved at `ab87431`.
@@ -17,8 +19,36 @@ limitation of context distillation.
   and [reproduction instructions](notes/reproduction.md).
 
 The original starting question and expectations below are preserved for context.
-The completed investigation stops at acquisition and immediate transfer; it does
-not test later retention or correction.
+The completed comparison tested acquisition and immediate transfer, with no later
+retention or correction. The current direction below supersedes its stopping
+expectation; the accepted findings and frozen protocol remain the record of
+that first comparison.
+
+## Current direction — 14 September 2026
+
+The user accepted the publication and asked for less acceptance of uncertainty
+about learning: an acceptable failure report should not quickly end the inquiry.
+Continue within this project with bounded diagnostic development. The next
+purpose is to distinguish explanations of acquisition failure and partial
+transfer. The investigator owns the methods and resource sizing.
+
+- Explain why both reverse-KL variants fail to acquire most training calls.
+  The pilots established gradient mechanics, not a functioning acquisition
+  recipe. Use separate development material for purposeful calibration and
+  comparisons that distinguish plausible causes; changing several settings
+  until a score improves would leave their effects unresolved.
+- Distinguish learning the routing decision, transforming identifiers and
+  composing the operations. The saved component analysis shows imitation
+  routing accuracy of 72/96 and 96/96, but identifier accuracy of 26/96 and
+  32/96. These partial successes supply a concrete phenomenon to investigate.
+
+Preserve the original runs and protocol. Select diagnostic work for what its
+possible outcomes would explain, retain failed development attempts, and use
+fresh evaluation to test a developed transfer claim. Progress may establish a
+working learning regime or a specific limitation. A neural advantage is not
+required. If a concrete resource constraint prevents further useful diagnosis,
+record it; failure of one recipe alone is insufficient closure. This direction
+does not require a new project or a later-learning/correction campaign.
 
 This study asks whether a different acquisition method can turn checked
 experience into behavior that transfers to new inputs. It follows the completed
