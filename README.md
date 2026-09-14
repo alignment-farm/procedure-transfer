@@ -1,7 +1,16 @@
 # Procedure transfer
 
-**Status: first publication accepted; acquisition diagnosis remains active,
+**Status: first publication accepted; acquisition diagnostic phase completed,
 14 September 2026.**
+
+**The follow-up establishes a working acquisition checkpoint and a controlled
+repair of failed routing.** Forward KL reaches 16/16 training recall; switching
+the same failed reverse-KL checkpoint to forward KL repairs all routing decisions
+and raises recall from 4/16 to 11/16. Correct routing alone does not repair
+new-identifier errors; supplying the uppercase identifier permits 48/48 suffix
+and closing completions. These are diagnostic development findings, with no new
+transfer-advantage claim. [DIAGNOSIS.md](DIAGNOSIS.md) records the interventions,
+failures, costs and limits; evidence is committed at `c183674`.
 
 **The tested evidence-conditioned distillation recipe did not improve transfer.**
 On-policy students scored 0/96 and 2/96 on fresh inputs, versus direct imitation's
@@ -25,6 +34,12 @@ expectation; the accepted findings and frozen protocol remain the record of
 that first comparison.
 
 ## Current direction — 14 September 2026
+
+The direction below was carried out in the bounded
+[diagnostic phase](DIAGNOSIS.md), which closes on explanatory progress and a
+functioning acquisition regime. Its remaining limitations and the requirement
+for fresh evaluation of any future transfer claim are recorded there. The
+accepted first comparison remains unchanged.
 
 The user accepted the publication and asked for less acceptance of uncertainty
 about learning: an acceptable failure report should not quickly end the inquiry.
