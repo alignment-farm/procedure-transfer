@@ -3,16 +3,19 @@ import argparse,json,time
 from pathlib import Path
 import mlx.core as mx
 from runtime import Runtime,logsoftmax,sha
-p=argparse.ArgumentParser();p.add_argument('run',type=Path);a=p.parse_args();out=Path(str(a.run)+'-gradients');out.mkdir(exist_ok=False)
+p=argparse.ArgumentParser();p.add_argument('run',type=Path);p.add_argument('--legacy',action='store_true');a=p.parse_args();out=Path(str(a.run)+'-gradients');out.mkdir(exist_ok=False)
 (out/'diagnostic_gradients.py').write_bytes(Path(__file__).read_bytes())
-data=json.loads((a.run/'tokens.json').read_text());rt=Runtime();rt.reinitialize(41);initial=rt.snapshot();start=time.monotonic();teacher=[];alignment=[]
+data=json.loads((a.run/('training_tokens.json' if a.legacy else 'tokens.json')).read_text())
+if a.legacy:data=[dict(case=r['case'],p=r['prefix'],tp=r['teacher_prefix'],y=r['answer']) for r in data]
+rt=Runtime();rt.reinitialize(41);initial=rt.snapshot();start=time.monotonic();teacher=[];alignment=[]
 for r in data:
     t,sec,n=rt.teacher(r['tp'],r['y']);teacher.append(t[0,0])
     standalone=logsoftmax(rt.logits(r['tp']))[0]
     delta=mx.max(mx.abs(standalone-t[0,0])).item()
     alignment.append(dict(case=r['case'],max_abs_logprob_delta=delta,full_argmax=int(t[0,0].argmax().item()),prefix_argmax=int(standalone.argmax().item())))
 records=[]
-for state in ['base','ce-0.0005-128','reverse-0.0005-256','reverse-5e-05-256','forward-0.0005-256','forward-5e-05-256']:
+states=['base']+sorted(p.stem for p in a.run.glob('*.safetensors')) if a.legacy else ['base','ce-0.0005-128','forward-0.0005-128','reverse-0.0005-256','reverse-5e-05-256','forward-0.0005-256','forward-5e-05-256']
+for state in states:
     rt.restore(initial if state=='base' else list(mx.load(str(a.run/f'{state}.safetensors')).items()))
     for r,t in zip(data,teacher):
         lp=logsoftmax(rt.logits(r['p']))[0];prob=mx.exp(lp);q=mx.exp(t);kl=mx.sum(prob*(lp-t))
