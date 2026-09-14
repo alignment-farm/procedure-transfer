@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "state": "teacher",
+      "condition": "free",
+      "correct": 46,
+      "total": 48
+    },
+    {
+      "state": "ce-0.0005-128",
+      "condition": "free",
+      "correct": 28,
+      "total": 48
+    },
+    {
+      "state": "ce-0.0005-128",
+      "condition": "route_supplied",
+      "correct": 28,
+      "total": 48
+    },
+    {
+      "state": "ce-0.0005-128",
+      "condition": "route_and_identifier_supplied",
+      "correct": 48,
+      "total": 48
+    },
+    {
+      "state": "forward-0.0005-128",
+      "condition": "free",
+      "correct": 17,
+      "total": 48
+    },
+    {
+      "state": "forward-0.0005-128",
+      "condition": "route_supplied",
+      "correct": 15,
+      "total": 48
+    },
+    {
+      "state": "forward-0.0005-128",
+      "condition": "route_and_identifier_supplied",
+      "correct": 48,
+      "total": 48
+    }
+  ],
+  "seconds": 120.68805295800848,
+  "peak_mlx_bytes": 9609509904,
+  "base_unchanged": true,
+  "reset_max_logit_delta": 0.0
+}

@@ -1,0 +1,256 @@
+{
+  "seed": 2026091402,
+  "cases": [
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "sbvq"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "sbvq"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "sbvq"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "sbvq"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "noud"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "noud"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "noud"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "noud"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "psjq"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "psjq"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "psjq"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "psjq"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "pltcom"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "pltcom"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "pltcom"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "pltcom"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "spkicj"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "spkicj"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "spkicj"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "spkicj"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "uehrml"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "uehrml"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "uehrml"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "uehrml"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "jxpenoxq"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "jxpenoxq"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "jxpenoxq"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "jxpenoxq"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "jewffvmp"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "jewffvmp"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "jewffvmp"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "jewffvmp"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "qrxhigkq"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "qrxhigkq"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "qrxhigkq"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "qrxhigkq"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "rmtjxhweot"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "rmtjxhweot"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "rmtjxhweot"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "rmtjxhweot"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "zouzafxxpo"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "zouzafxxpo"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "zouzafxxpo"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "zouzafxxpo"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "atzvldrqgt"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "atzvldrqgt"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "atzvldrqgt"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "atzvldrqgt"
+    }
+  ],
+  "checkpoints": [
+    "ce-0.0005-128",
+    "forward-0.0005-128"
+  ],
+  "selection": "Earliest >=15/16 acquisition recall; both first succeed at 128. Lower-rate forward never qualifies.",
+  "conditions": [
+    "free",
+    "route_supplied",
+    "route_and_identifier_supplied"
+  ],
+  "warning": "Oracle-supplied response prefixes are privileged diagnostics, not deployment results."
+}

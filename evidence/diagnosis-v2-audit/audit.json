@@ -1,0 +1,1010 @@
+{
+  "status": "passed",
+  "files_hashed": 41,
+  "response_records_checked": 944,
+  "teacher_records_checked": 16,
+  "summaries": [
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "base",
+        0,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 0,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 0,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "base",
+        0,
+        "development"
+      ],
+      "total": 16,
+      "correct": 0,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 0,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "ce-0.0005",
+        32,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 7,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 16,
+        "suffix": 14
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "ce-0.0005",
+        32,
+        "development"
+      ],
+      "total": 16,
+      "correct": 3,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 9,
+        "suffix": 12
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "ce-0.0005",
+        128,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 16,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 16,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "ce-0.0005",
+        128,
+        "development"
+      ],
+      "total": 16,
+      "correct": 12,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 12,
+        "suffix": 13
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "ce-0.0005",
+        256,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 16,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 16,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "ce-0.0005",
+        256,
+        "development"
+      ],
+      "total": 16,
+      "correct": 12,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 12,
+        "suffix": 13
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-0.0005",
+        32,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 2,
+      "components": {
+        "format": 14,
+        "route": 6,
+        "identifier": 10,
+        "suffix": 7
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-0.0005",
+        32,
+        "development"
+      ],
+      "total": 16,
+      "correct": 3,
+      "components": {
+        "format": 15,
+        "route": 7,
+        "identifier": 10,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-0.0005",
+        128,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 4,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 16,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-0.0005",
+        128,
+        "development"
+      ],
+      "total": 16,
+      "correct": 3,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 12,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-0.0005",
+        256,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 4,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 16,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-0.0005",
+        256,
+        "development"
+      ],
+      "total": 16,
+      "correct": 3,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 12,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-5e-05",
+        32,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 0,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 0,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-5e-05",
+        32,
+        "development"
+      ],
+      "total": 16,
+      "correct": 0,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 0,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-5e-05",
+        128,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 0,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 0,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-5e-05",
+        128,
+        "development"
+      ],
+      "total": 16,
+      "correct": 0,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 0,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-5e-05",
+        256,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 0,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 0,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "reverse-5e-05",
+        256,
+        "development"
+      ],
+      "total": 16,
+      "correct": 0,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 0,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-0.0005",
+        32,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 6,
+      "components": {
+        "format": 16,
+        "route": 12,
+        "identifier": 16,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-0.0005",
+        32,
+        "development"
+      ],
+      "total": 16,
+      "correct": 4,
+      "components": {
+        "format": 16,
+        "route": 15,
+        "identifier": 12,
+        "suffix": 6
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-0.0005",
+        128,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 16,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 16,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-0.0005",
+        128,
+        "development"
+      ],
+      "total": 16,
+      "correct": 13,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 13,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-0.0005",
+        256,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 14,
+      "components": {
+        "format": 16,
+        "route": 14,
+        "identifier": 16,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-0.0005",
+        256,
+        "development"
+      ],
+      "total": 16,
+      "correct": 10,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 10,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-5e-05",
+        32,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 6,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 16,
+        "suffix": 11
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-5e-05",
+        32,
+        "development"
+      ],
+      "total": 16,
+      "correct": 2,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 9,
+        "suffix": 9
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-5e-05",
+        128,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 13,
+      "components": {
+        "format": 16,
+        "route": 13,
+        "identifier": 16,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-5e-05",
+        128,
+        "development"
+      ],
+      "total": 16,
+      "correct": 10,
+      "components": {
+        "format": 16,
+        "route": 14,
+        "identifier": 12,
+        "suffix": 14
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-5e-05",
+        256,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 14,
+      "components": {
+        "format": 16,
+        "route": 14,
+        "identifier": 16,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2",
+      "group": [
+        "forward-5e-05",
+        256,
+        "development"
+      ],
+      "total": 16,
+      "correct": 11,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 11,
+        "suffix": 14
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-rescue",
+      "group": [
+        "collapsed_reverse",
+        null,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 4,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 16,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-rescue",
+      "group": [
+        "collapsed_reverse",
+        null,
+        "development"
+      ],
+      "total": 16,
+      "correct": 1,
+      "components": {
+        "format": 16,
+        "route": 8,
+        "identifier": 4,
+        "suffix": 8
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-rescue",
+      "group": [
+        "collapsed_forward",
+        null,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 11,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 16,
+        "suffix": 11
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-rescue",
+      "group": [
+        "collapsed_forward",
+        null,
+        "development"
+      ],
+      "total": 16,
+      "correct": 6,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 11,
+        "suffix": 10
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-rescue",
+      "group": [
+        "acquired_reverse",
+        null,
+        "recall"
+      ],
+      "total": 16,
+      "correct": 16,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 16,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-rescue",
+      "group": [
+        "acquired_reverse",
+        null,
+        "development"
+      ],
+      "total": 16,
+      "correct": 8,
+      "components": {
+        "format": 16,
+        "route": 16,
+        "identifier": 8,
+        "suffix": 16
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-components",
+      "group": [
+        "teacher",
+        "free"
+      ],
+      "total": 48,
+      "correct": 46,
+      "components": {
+        "format": 48,
+        "route": 48,
+        "identifier": 48,
+        "suffix": 46
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-components",
+      "group": [
+        "ce-0.0005-128",
+        "free"
+      ],
+      "total": 48,
+      "correct": 28,
+      "components": {
+        "format": 48,
+        "route": 48,
+        "identifier": 28,
+        "suffix": 45
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-components",
+      "group": [
+        "ce-0.0005-128",
+        "route_supplied"
+      ],
+      "total": 48,
+      "correct": 28,
+      "components": {
+        "format": 48,
+        "route": 48,
+        "identifier": 28,
+        "suffix": 45
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-components",
+      "group": [
+        "ce-0.0005-128",
+        "route_and_identifier_supplied"
+      ],
+      "total": 48,
+      "correct": 48,
+      "components": {
+        "format": 48,
+        "route": 48,
+        "identifier": 48,
+        "suffix": 48
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-components",
+      "group": [
+        "forward-0.0005-128",
+        "free"
+      ],
+      "total": 48,
+      "correct": 17,
+      "components": {
+        "format": 48,
+        "route": 48,
+        "identifier": 17,
+        "suffix": 41
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-components",
+      "group": [
+        "forward-0.0005-128",
+        "route_supplied"
+      ],
+      "total": 48,
+      "correct": 15,
+      "components": {
+        "format": 48,
+        "route": 48,
+        "identifier": 15,
+        "suffix": 41
+      }
+    },
+    {
+      "bundle": "diagnosis-v2-components",
+      "group": [
+        "forward-0.0005-128",
+        "route_and_identifier_supplied"
+      ],
+      "total": 48,
+      "correct": 48,
+      "components": {
+        "format": 48,
+        "route": 48,
+        "identifier": 48,
+        "suffix": 48
+      }
+    }
+  ],
+  "costs": [
+    {
+      "bundle": "diagnosis-v2",
+      "generation_calls": 512,
+      "prompt_tokens": 36160,
+      "completion_tokens": 5147,
+      "generation_seconds": 160.70527357794344,
+      "updates": 1280,
+      "seconds": 493.99475195800187,
+      "peak_mlx_bytes": 9717005708
+    },
+    {
+      "bundle": "diagnosis-v2-rescue",
+      "generation_calls": 96,
+      "prompt_tokens": 6780,
+      "completion_tokens": 911,
+      "generation_seconds": 29.18783320498187,
+      "updates": 384,
+      "seconds": 148.63385545799974,
+      "peak_mlx_bytes": 9710009700
+    },
+    {
+      "bundle": "diagnosis-v2-components",
+      "generation_calls": 336,
+      "prompt_tokens": 44032,
+      "completion_tokens": 2297,
+      "generation_seconds": 101.08239625795977
+    }
+  ],
+  "replays": [
+    {
+      "checkpoint": "evidence/diagnosis-v2/ce-0.0005-128.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/ce-0.0005-256.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/ce-0.0005-32.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/forward-0.0005-128.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/forward-0.0005-256.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/forward-0.0005-32.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        28242,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/forward-5e-05-128.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/forward-5e-05-256.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/forward-5e-05-32.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        28242,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/reverse-0.0005-128.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/reverse-0.0005-256.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/reverse-0.0005-32.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/reverse-5e-05-128.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        47524,
+        74,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/reverse-5e-05-256.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        47524,
+        74,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2/reverse-5e-05-32.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        47524,
+        74,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2-rescue/acquired_reverse.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2-rescue/collapsed_forward.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    },
+    {
+      "checkpoint": "evidence/diagnosis-v2-rescue/collapsed_reverse.safetensors",
+      "exact_tokens": true,
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ]
+    }
+  ],
+  "repeated_cases_are_not_new_evaluation_evidence": true,
+  "seconds": 15.015614040996297,
+  "base_unchanged": true,
+  "reset_max_logit_delta": 0.0
+}

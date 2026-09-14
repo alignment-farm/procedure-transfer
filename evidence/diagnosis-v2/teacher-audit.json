@@ -1,0 +1,1090 @@
+[
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "pelk"
+    },
+    "expected": "kestrel(text=\"PELK\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"PELK\")",
+      "action": "kestrel(text=\"PELK\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6146508340025321,
+      "prompt_tokens": 462,
+      "completion_tokens": 8
+    },
+    "canonical_y": [
+      39323,
+      3748,
+      7235,
+      428,
+      1740,
+      92963,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.999527096748352,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999732971191406,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      3748,
+      7235,
+      428,
+      1740,
+      92963,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.44880395899235737,
+    "teacher_input_tokens": 469
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "pelk"
+    },
+    "expected": "kestrel(text=\"PELK-Q\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        28242,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"PELK-Q\")",
+      "action": "kestrel(text=\"PELK-Q\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.5935783339955378,
+      "prompt_tokens": 462,
+      "completion_tokens": 9
+    },
+    "canonical_y": [
+      39323,
+      3748,
+      7235,
+      428,
+      1740,
+      92963,
+      28242,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.9997139573097229,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999427795410156,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      3748,
+      7235,
+      428,
+      1740,
+      92963,
+      28242,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.4450870830041822,
+    "teacher_input_tokens": 470
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "pelk"
+    },
+    "expected": "marten(text=\"PELK\")",
+    "correct": false,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        1740,
+        92963,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"PELK\")",
+      "action": "kestrel(text=\"PELK\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6071501249971334,
+      "prompt_tokens": 462,
+      "completion_tokens": 8
+    },
+    "canonical_y": [
+      76,
+      23118,
+      7235,
+      428,
+      1740,
+      92963,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.11857882142066956,
+      0.9999885559082031,
+      1.0,
+      1.0,
+      0.9999923706054688,
+      0.9988296031951904,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      23118,
+      7235,
+      428,
+      1740,
+      92963,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": false,
+    "teacher_seconds": 0.46091941600025166,
+    "teacher_input_tokens": 469
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "pelk"
+    },
+    "expected": "marten(text=\"PELK-Q\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        1740,
+        92963,
+        28242,
+        899,
+        151645
+      ],
+      "raw": "marten(text=\"PELK-Q\")",
+      "action": "marten(text=\"PELK-Q\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6221692499966593,
+      "prompt_tokens": 462,
+      "completion_tokens": 9
+    },
+    "canonical_y": [
+      76,
+      23118,
+      7235,
+      428,
+      1740,
+      92963,
+      28242,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      1.0,
+      0.9999961853027344,
+      1.0,
+      1.0,
+      1.0,
+      0.9992907047271729,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      76,
+      23118,
+      7235,
+      428,
+      1740,
+      92963,
+      28242,
+      899,
+      151645
+    ],
+    "first_argmax_text": "m",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.4560771670076065,
+    "teacher_input_tokens": 470
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "druvan"
+    },
+    "expected": "kestrel(text=\"DRUVAN\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        7687,
+        22246,
+        1093,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"DRUVAN\")",
+      "action": "kestrel(text=\"DRUVAN\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.5947897080041002,
+      "prompt_tokens": 462,
+      "completion_tokens": 9
+    },
+    "canonical_y": [
+      39323,
+      3748,
+      7235,
+      428,
+      7687,
+      22246,
+      1093,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.9993288516998291,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      3748,
+      7235,
+      428,
+      7687,
+      22246,
+      1093,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.446366374992067,
+    "teacher_input_tokens": 470
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "druvan"
+    },
+    "expected": "kestrel(text=\"DRUVAN-Q\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        7687,
+        22246,
+        1093,
+        28242,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"DRUVAN-Q\")",
+      "action": "kestrel(text=\"DRUVAN-Q\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6405419170041569,
+      "prompt_tokens": 462,
+      "completion_tokens": 10
+    },
+    "canonical_y": [
+      39323,
+      3748,
+      7235,
+      428,
+      7687,
+      22246,
+      1093,
+      28242,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.9994165301322937,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      3748,
+      7235,
+      428,
+      7687,
+      22246,
+      1093,
+      28242,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.46056483300344553,
+    "teacher_input_tokens": 471
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "druvan"
+    },
+    "expected": "marten(text=\"DRUVAN\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        7687,
+        22246,
+        1093,
+        899,
+        151645
+      ],
+      "raw": "marten(text=\"DRUVAN\")",
+      "action": "marten(text=\"DRUVAN\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.592811583992443,
+      "prompt_tokens": 462,
+      "completion_tokens": 9
+    },
+    "canonical_y": [
+      76,
+      23118,
+      7235,
+      428,
+      7687,
+      22246,
+      1093,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      1.0,
+      0.9999961853027344,
+      1.0,
+      1.0,
+      0.9525628089904785,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      76,
+      23118,
+      7235,
+      428,
+      7687,
+      22246,
+      1093,
+      899,
+      151645
+    ],
+    "first_argmax_text": "m",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.4459364169888431,
+    "teacher_input_tokens": 470
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "druvan"
+    },
+    "expected": "marten(text=\"DRUVAN-Q\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        7687,
+        22246,
+        1093,
+        28242,
+        899,
+        151645
+      ],
+      "raw": "marten(text=\"DRUVAN-Q\")",
+      "action": "marten(text=\"DRUVAN-Q\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.645308125007432,
+      "prompt_tokens": 462,
+      "completion_tokens": 10
+    },
+    "canonical_y": [
+      76,
+      23118,
+      7235,
+      428,
+      7687,
+      22246,
+      1093,
+      28242,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      1.0,
+      0.9999961853027344,
+      1.0,
+      1.0,
+      0.9999961853027344,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      76,
+      23118,
+      7235,
+      428,
+      7687,
+      22246,
+      1093,
+      28242,
+      899,
+      151645
+    ],
+    "first_argmax_text": "m",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.4594111669866834,
+    "teacher_input_tokens": 471
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "snebit"
+    },
+    "expected": "kestrel(text=\"SNEBIT\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        50,
+        3944,
+        20917,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"SNEBIT\")",
+      "action": "kestrel(text=\"SNEBIT\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.5948331669933395,
+      "prompt_tokens": 462,
+      "completion_tokens": 9
+    },
+    "canonical_y": [
+      39323,
+      3748,
+      7235,
+      428,
+      50,
+      3944,
+      20917,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.9993936419487,
+      1.0,
+      1.0,
+      1.0,
+      0.9997978210449219,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      3748,
+      7235,
+      428,
+      50,
+      3944,
+      20917,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.44699475000379607,
+    "teacher_input_tokens": 470
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "snebit"
+    },
+    "expected": "kestrel(text=\"SNEBIT-Q\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        50,
+        3944,
+        20917,
+        28242,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"SNEBIT-Q\")",
+      "action": "kestrel(text=\"SNEBIT-Q\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6409487909986638,
+      "prompt_tokens": 462,
+      "completion_tokens": 10
+    },
+    "canonical_y": [
+      39323,
+      3748,
+      7235,
+      428,
+      50,
+      3944,
+      20917,
+      28242,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.9996376633644104,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999961853027344,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      3748,
+      7235,
+      428,
+      50,
+      3944,
+      20917,
+      28242,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.460968999992474,
+    "teacher_input_tokens": 471
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "snebit"
+    },
+    "expected": "marten(text=\"SNEBIT\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        50,
+        3944,
+        20917,
+        899,
+        151645
+      ],
+      "raw": "marten(text=\"SNEBIT\")",
+      "action": "marten(text=\"SNEBIT\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.5928897500125458,
+      "prompt_tokens": 462,
+      "completion_tokens": 9
+    },
+    "canonical_y": [
+      76,
+      23118,
+      7235,
+      428,
+      50,
+      3944,
+      20917,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      1.0,
+      0.9999961853027344,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999961853027344,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      76,
+      23118,
+      7235,
+      428,
+      50,
+      3944,
+      20917,
+      899,
+      151645
+    ],
+    "first_argmax_text": "m",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.4459447090048343,
+    "teacher_input_tokens": 470
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "snebit"
+    },
+    "expected": "marten(text=\"SNEBIT-Q\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        76,
+        23118,
+        7235,
+        428,
+        50,
+        3944,
+        20917,
+        28242,
+        899,
+        151645
+      ],
+      "raw": "marten(text=\"SNEBIT-Q\")",
+      "action": "marten(text=\"SNEBIT-Q\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6420743750059046,
+      "prompt_tokens": 462,
+      "completion_tokens": 10
+    },
+    "canonical_y": [
+      76,
+      23118,
+      7235,
+      428,
+      50,
+      3944,
+      20917,
+      28242,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999961853027344,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      76,
+      23118,
+      7235,
+      428,
+      50,
+      3944,
+      20917,
+      28242,
+      899,
+      151645
+    ],
+    "first_argmax_text": "m",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.4593458750023274,
+    "teacher_input_tokens": 471
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "korvaz"
+    },
+    "expected": "kestrel(text=\"KORVAZ\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        42,
+        868,
+        12820,
+        57,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"KORVAZ\")",
+      "action": "kestrel(text=\"KORVAZ\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6339036669960478,
+      "prompt_tokens": 463,
+      "completion_tokens": 10
+    },
+    "canonical_y": [
+      39323,
+      3748,
+      7235,
+      428,
+      42,
+      868,
+      12820,
+      57,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.9994356036186218,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      3748,
+      7235,
+      428,
+      42,
+      868,
+      12820,
+      57,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.4568252500030212,
+    "teacher_input_tokens": 472
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "korvaz"
+    },
+    "expected": "kestrel(text=\"KORVAZ-Q\")",
+    "correct": true,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        42,
+        868,
+        12820,
+        57,
+        28242,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"KORVAZ-Q\")",
+      "action": "kestrel(text=\"KORVAZ-Q\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6609610000014072,
+      "prompt_tokens": 463,
+      "completion_tokens": 11
+    },
+    "canonical_y": [
+      39323,
+      3748,
+      7235,
+      428,
+      42,
+      868,
+      12820,
+      57,
+      28242,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.9992201924324036,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      3748,
+      7235,
+      428,
+      42,
+      868,
+      12820,
+      57,
+      28242,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": true,
+    "teacher_seconds": 0.4624741670122603,
+    "teacher_input_tokens": 473
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "korvaz"
+    },
+    "expected": "marten(text=\"KORVAZ\")",
+    "correct": false,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        42,
+        868,
+        12820,
+        57,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"KORVAZ\")",
+      "action": "kestrel(text=\"KORVAZ\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6077727079973556,
+      "prompt_tokens": 463,
+      "completion_tokens": 10
+    },
+    "canonical_y": [
+      76,
+      23118,
+      7235,
+      428,
+      42,
+      868,
+      12820,
+      57,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.037234921008348465,
+      0.9999885559082031,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      39323,
+      23118,
+      7235,
+      428,
+      42,
+      868,
+      12820,
+      57,
+      899,
+      151645
+    ],
+    "first_argmax_text": "kest",
+    "canonical_equals_generated": false,
+    "teacher_seconds": 0.44465154100907966,
+    "teacher_input_tokens": 472
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "korvaz"
+    },
+    "expected": "marten(text=\"KORVAZ-Q\")",
+    "correct": false,
+    "teacher": {
+      "ids": [
+        39323,
+        3748,
+        7235,
+        428,
+        42,
+        868,
+        12820,
+        57,
+        28242,
+        899,
+        151645
+      ],
+      "raw": "kestrel(text=\"KORVAZ-Q\")",
+      "action": "kestrel(text=\"KORVAZ-Q\")",
+      "ended": true,
+      "at_limit": false,
+      "seconds": 0.6287000419979449,
+      "prompt_tokens": 463,
+      "completion_tokens": 11
+    },
+    "canonical_y": [
+      76,
+      23118,
+      7235,
+      428,
+      42,
+      868,
+      12820,
+      57,
+      28242,
+      899,
+      151645
+    ],
+    "gold_probabilities": [
+      0.5263552665710449,
+      0.9999923706054688,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teacher_argmax": [
+      76,
+      23118,
+      7235,
+      428,
+      42,
+      868,
+      12820,
+      57,
+      28242,
+      899,
+      151645
+    ],
+    "first_argmax_text": "m",
+    "canonical_equals_generated": false,
+    "teacher_seconds": 0.44986166698799934,
+    "teacher_input_tokens": 473
+  }
+]

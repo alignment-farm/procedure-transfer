@@ -1,0 +1,2223 @@
+{
+  "scope": "Raw first-position logit gradients, not parameter-gradient norms; computed analytically at saved model distributions. Thresholds specified before inspection in diagnosis-v2-signal.md.",
+  "summary": {
+    "base": {
+      "teacher_clear": 14,
+      "student_wrong_on_teacher_clear": 11,
+      "weak_reverse_strong_forward": 1
+    },
+    "rkl_checked-17": {
+      "teacher_clear": 14,
+      "student_wrong_on_teacher_clear": 6,
+      "weak_reverse_strong_forward": 6
+    },
+    "rkl_checked-29": {
+      "teacher_clear": 14,
+      "student_wrong_on_teacher_clear": 8,
+      "weak_reverse_strong_forward": 8
+    },
+    "rkl_onpolicy-17": {
+      "teacher_clear": 14,
+      "student_wrong_on_teacher_clear": 8,
+      "weak_reverse_strong_forward": 8
+    },
+    "rkl_onpolicy-29": {
+      "teacher_clear": 14,
+      "student_wrong_on_teacher_clear": 8,
+      "weak_reverse_strong_forward": 8
+    },
+    "sft-17": {
+      "teacher_clear": 14,
+      "student_wrong_on_teacher_clear": 0,
+      "weak_reverse_strong_forward": 0
+    },
+    "sft-29": {
+      "teacher_clear": 14,
+      "student_wrong_on_teacher_clear": 0,
+      "weak_reverse_strong_forward": 0
+    }
+  },
+  "records": [
+    {
+      "state": "base",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.0006861513247713447,
+      "q_correct": 0.9998016357421875,
+      "reverse_kl": 14.816422462463379,
+      "reverse_correct_logit_gradient": -0.015164379961788654,
+      "forward_correct_logit_gradient": -0.9991154670715332,
+      "reverse_logit_gradient_norm": 0.028982117772102356,
+      "forward_logit_gradient_norm": 1.3902568817138672
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.009943293407559395,
+      "q_correct": 0.9996529221534729,
+      "reverse_kl": 12.071929931640625,
+      "reverse_correct_logit_gradient": -0.16587840020656586,
+      "forward_correct_logit_gradient": -0.9897096157073975,
+      "reverse_logit_gradient_norm": 0.5069570541381836,
+      "forward_logit_gradient_norm": 1.281925916671753
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.7929987907409668,
+      "q_correct": 0.9948121905326843,
+      "reverse_kl": 0.6364386677742004,
+      "reverse_correct_logit_gradient": -0.6844934821128845,
+      "forward_correct_logit_gradient": -0.20181339979171753,
+      "reverse_logit_gradient_norm": 0.9641998410224915,
+      "forward_logit_gradient_norm": 0.2820008397102356
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 33472,
+      "predicted_first_text": "mart",
+      "p_correct": 0.34391331672668457,
+      "q_correct": 1.0,
+      "reverse_kl": 12.227228164672852,
+      "reverse_correct_logit_gradient": -4.572187900543213,
+      "forward_correct_logit_gradient": -0.6560866832733154,
+      "reverse_logit_gradient_norm": 6.031855583190918,
+      "forward_logit_gradient_norm": 0.8715053200721741
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.009192307479679585,
+      "q_correct": 0.9997254014015198,
+      "reverse_kl": 10.062000274658203,
+      "reverse_correct_logit_gradient": -0.13559678196907043,
+      "forward_correct_logit_gradient": -0.9905331134796143,
+      "reverse_logit_gradient_norm": 0.42582055926322937,
+      "forward_logit_gradient_norm": 1.3008949756622314
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 33472,
+      "predicted_first_text": "mart",
+      "p_correct": 0.06696886569261551,
+      "q_correct": 0.9996300339698792,
+      "reverse_kl": 12.793343544006348,
+      "reverse_correct_logit_gradient": -1.037783145904541,
+      "forward_correct_logit_gradient": -0.9326611757278442,
+      "reverse_logit_gradient_norm": 1.8642367124557495,
+      "forward_logit_gradient_norm": 1.142548680305481
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 33472,
+      "predicted_first_text": "mart",
+      "p_correct": 0.3070659637451172,
+      "q_correct": 0.8132672309875488,
+      "reverse_kl": 1.059815764427185,
+      "reverse_correct_logit_gradient": -0.6245147585868835,
+      "forward_correct_logit_gradient": -0.5062012672424316,
+      "reverse_logit_gradient_norm": 0.9488515257835388,
+      "forward_logit_gradient_norm": 0.7686894536018372
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 33472,
+      "predicted_first_text": "mart",
+      "p_correct": 0.08680891245603561,
+      "q_correct": 1.0,
+      "reverse_kl": 15.494301795959473,
+      "reverse_correct_logit_gradient": -1.5572084188461304,
+      "forward_correct_logit_gradient": -0.9131910800933838,
+      "reverse_logit_gradient_norm": 1.9448096752166748,
+      "forward_logit_gradient_norm": 1.1815217733383179
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.0004236926033627242,
+      "q_correct": 0.9998588562011719,
+      "reverse_kl": 13.970012664794922,
+      "reverse_correct_logit_gradient": -0.00920954067260027,
+      "forward_correct_logit_gradient": -0.9994351863861084,
+      "reverse_logit_gradient_norm": 0.016692133620381355,
+      "forward_logit_gradient_norm": 1.4023749828338623
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.008280374109745026,
+      "q_correct": 0.9995880722999573,
+      "reverse_kl": 13.577380180358887,
+      "reverse_correct_logit_gradient": -0.15211738646030426,
+      "forward_correct_logit_gradient": -0.9913076758384705,
+      "reverse_logit_gradient_norm": 0.3159874975681305,
+      "forward_logit_gradient_norm": 1.3105785846710205
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.8263973593711853,
+      "q_correct": 1.0,
+      "reverse_kl": 2.922194480895996,
+      "reverse_correct_logit_gradient": -2.5724709033966064,
+      "forward_correct_logit_gradient": -0.1736026406288147,
+      "reverse_logit_gradient_norm": 3.5235631465911865,
+      "forward_logit_gradient_norm": 0.23817290365695953
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 33472,
+      "predicted_first_text": "mart",
+      "p_correct": 0.3308505117893219,
+      "q_correct": 1.0,
+      "reverse_kl": 13.88119888305664,
+      "reverse_correct_logit_gradient": -4.95855188369751,
+      "forward_correct_logit_gradient": -0.6691495180130005,
+      "reverse_logit_gradient_norm": 6.363266944885254,
+      "forward_logit_gradient_norm": 0.8718518018722534
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.891785541374702e-05,
+      "q_correct": 0.9996243119239807,
+      "reverse_kl": 10.123001098632812,
+      "reverse_correct_logit_gradient": -0.00039723768713884056,
+      "forward_correct_logit_gradient": -0.9996054172515869,
+      "reverse_logit_gradient_norm": 0.0025188911240547895,
+      "forward_logit_gradient_norm": 1.4136204719543457
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.001020834781229496,
+      "q_correct": 0.9994165301322937,
+      "reverse_kl": 9.461588859558105,
+      "reverse_correct_logit_gradient": -0.016688751056790352,
+      "forward_correct_logit_gradient": -0.9983956813812256,
+      "reverse_logit_gradient_norm": 0.032701753079891205,
+      "forward_logit_gradient_norm": 1.4045603275299072
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9970213770866394,
+      "q_correct": 0.09449619799852371,
+      "reverse_kl": 2.3449203968048096,
+      "reverse_correct_logit_gradient": 0.011258583515882492,
+      "forward_correct_logit_gradient": 0.9025251865386963,
+      "reverse_logit_gradient_norm": 0.014781935140490532,
+      "forward_logit_gradient_norm": 1.2720471620559692
+    },
+    {
+      "state": "base",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9310221672058105,
+      "q_correct": 0.9062412977218628,
+      "reverse_kl": 0.03956560045480728,
+      "reverse_correct_logit_gradient": -0.011719764210283756,
+      "forward_correct_logit_gradient": 0.024780869483947754,
+      "reverse_logit_gradient_norm": 0.03571789711713791,
+      "forward_logit_gradient_norm": 0.059921327978372574
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.0,
+      "q_correct": 0.9998016357421875,
+      "reverse_kl": 0.00019809753575827926,
+      "reverse_correct_logit_gradient": 2.6672205422073603e-07,
+      "forward_correct_logit_gradient": 0.0001983642578125,
+      "reverse_logit_gradient_norm": 3.278243809745618e-07,
+      "forward_logit_gradient_norm": 0.0002554353268351406
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.0,
+      "q_correct": 0.9996529221534729,
+      "reverse_kl": 0.0003468598297331482,
+      "reverse_correct_logit_gradient": 2.776214387267828e-07,
+      "forward_correct_logit_gradient": 0.0003470778465270996,
+      "reverse_logit_gradient_norm": 3.3744328220564057e-07,
+      "forward_logit_gradient_norm": 0.0004570402088575065
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 3.2661313974571837e-13,
+      "q_correct": 0.9948121905326843,
+      "reverse_kl": 6.5052008628845215,
+      "reverse_correct_logit_gradient": -1.151311337932448e-11,
+      "forward_correct_logit_gradient": -0.9948121905326843,
+      "reverse_logit_gradient_norm": 1.1854167496494483e-06,
+      "forward_logit_gradient_norm": 1.4094946384429932
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.9810088085995409e-13,
+      "q_correct": 1.0,
+      "reverse_kl": 22.625001907348633,
+      "reverse_correct_logit_gradient": -1.027648278972837e-11,
+      "forward_correct_logit_gradient": -1.0,
+      "reverse_logit_gradient_norm": 2.5235858629457653e-06,
+      "forward_logit_gradient_norm": 1.4142135381698608
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.0,
+      "q_correct": 0.9997254014015198,
+      "reverse_kl": 0.0002744282246567309,
+      "reverse_correct_logit_gradient": 2.2997846826910973e-07,
+      "forward_correct_logit_gradient": 0.0002745985984802246,
+      "reverse_logit_gradient_norm": 2.830018956956337e-07,
+      "forward_logit_gradient_norm": 0.00033271557185798883
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.0,
+      "q_correct": 0.9996300339698792,
+      "reverse_kl": 0.00036984740290790796,
+      "reverse_correct_logit_gradient": 1.782318577170372e-07,
+      "forward_correct_logit_gradient": 0.0003699660301208496,
+      "reverse_logit_gradient_norm": 2.1265437055717484e-07,
+      "forward_logit_gradient_norm": 0.0004997268551960588
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.3615261804274248e-13,
+      "q_correct": 0.8132672309875488,
+      "reverse_kl": 2.206695079803467,
+      "reverse_correct_logit_gradient": -4.305826528661072e-12,
+      "forward_correct_logit_gradient": -0.8132672309875488,
+      "reverse_logit_gradient_norm": 6.630858706557774e-07,
+      "forward_logit_gradient_norm": 1.2079373598098755
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 9.357622912219837e-14,
+      "q_correct": 1.0,
+      "reverse_kl": 20.0,
+      "reverse_correct_logit_gradient": -4.67881159163519e-12,
+      "forward_correct_logit_gradient": -1.0,
+      "reverse_logit_gradient_norm": 7.612835020154307e-07,
+      "forward_logit_gradient_norm": 1.4142135381698608
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.0,
+      "q_correct": 0.9998588562011719,
+      "reverse_kl": 0.00014091530465520918,
+      "reverse_correct_logit_gradient": 2.284941729158163e-07,
+      "forward_correct_logit_gradient": 0.000141143798828125,
+      "reverse_logit_gradient_norm": 2.848306053238048e-07,
+      "forward_logit_gradient_norm": 0.00018772810290101916
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.0,
+      "q_correct": 0.9995880722999573,
+      "reverse_kl": 0.0004117840144317597,
+      "reverse_correct_logit_gradient": 2.0329025574028492e-07,
+      "forward_correct_logit_gradient": 0.0004119277000427246,
+      "reverse_logit_gradient_norm": 2.476570273302059e-07,
+      "forward_logit_gradient_norm": 0.0005608389037661254
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 2.5436654193557173e-13,
+      "q_correct": 1.0,
+      "reverse_kl": 23.375001907348633,
+      "reverse_correct_logit_gradient": -1.332244731200305e-11,
+      "forward_correct_logit_gradient": -1.0,
+      "reverse_logit_gradient_norm": 2.4382393348787446e-06,
+      "forward_logit_gradient_norm": 1.4142135381698608
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 2.244777036778875e-13,
+      "q_correct": 1.0,
+      "reverse_kl": 25.250001907348633,
+      "reverse_correct_logit_gradient": -1.2205974946055687e-11,
+      "forward_correct_logit_gradient": -1.0,
+      "reverse_logit_gradient_norm": 2.362760142204934e-06,
+      "forward_logit_gradient_norm": 1.4142135381698608
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.0,
+      "q_correct": 0.9996243119239807,
+      "reverse_kl": 0.0003754491335712373,
+      "reverse_correct_logit_gradient": 2.9854709282517433e-07,
+      "forward_correct_logit_gradient": 0.0003756880760192871,
+      "reverse_logit_gradient_norm": 3.639395913523913e-07,
+      "forward_logit_gradient_norm": 0.0004622327978722751
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 1.0,
+      "q_correct": 0.9994165301322937,
+      "reverse_kl": 0.0005833657924085855,
+      "reverse_correct_logit_gradient": 2.828892320394516e-07,
+      "forward_correct_logit_gradient": 0.0005834698677062988,
+      "reverse_logit_gradient_norm": 3.5099992601317354e-07,
+      "forward_logit_gradient_norm": 0.000730797415599227
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 3.06824634059219e-13,
+      "q_correct": 0.09449619799852371,
+      "reverse_kl": 0.10919486731290817,
+      "reverse_correct_logit_gradient": -8.150029262576908e-12,
+      "forward_correct_logit_gradient": -0.09449619799852371,
+      "reverse_logit_gradient_norm": 1.032034106174251e-06,
+      "forward_logit_gradient_norm": 0.14032414555549622
+    },
+    {
+      "state": "rkl_checked-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 2.108772954433763e-13,
+      "q_correct": 0.9062412977218628,
+      "reverse_kl": 2.848449230194092,
+      "reverse_correct_logit_gradient": -6.734893458898439e-12,
+      "forward_correct_logit_gradient": -0.9062412977218628,
+      "reverse_logit_gradient_norm": 8.538557949577807e-07,
+      "forward_logit_gradient_norm": 1.3076682090759277
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 5.500978904164622e-14,
+      "q_correct": 0.9998016357421875,
+      "reverse_kl": 14.875143051147461,
+      "reverse_correct_logit_gradient": -2.4977860491742776e-12,
+      "forward_correct_logit_gradient": -0.9998016357421875,
+      "reverse_logit_gradient_norm": 4.4946187699679285e-05,
+      "forward_logit_gradient_norm": 1.414062261581421
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 7.51894613194512e-14,
+      "q_correct": 0.9996529221534729,
+      "reverse_kl": 12.000308990478516,
+      "reverse_correct_logit_gradient": -3.174403448436003e-12,
+      "forward_correct_logit_gradient": -0.9996529221534729,
+      "reverse_logit_gradient_norm": 2.583484456408769e-05,
+      "forward_logit_gradient_norm": 1.4139530658721924
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999847412109375,
+      "q_correct": 0.9948121905326843,
+      "reverse_kl": 0.0052802907302975655,
+      "reverse_correct_logit_gradient": -9.420835704077035e-05,
+      "forward_correct_logit_gradient": 0.005172550678253174,
+      "reverse_logit_gradient_norm": 0.0001024807570502162,
+      "forward_logit_gradient_norm": 0.006470383144915104
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999885559082031,
+      "q_correct": 1.0,
+      "reverse_kl": 0.00018138658197131008,
+      "reverse_correct_logit_gradient": -0.00019282846187707037,
+      "forward_correct_logit_gradient": -1.1444091796875e-05,
+      "reverse_logit_gradient_norm": 0.0002054776414297521,
+      "forward_logit_gradient_norm": 1.239926405105507e-05
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 2.3843159231381507e-14,
+      "q_correct": 0.9997254014015198,
+      "reverse_kl": 10.0001802444458,
+      "reverse_correct_logit_gradient": -9.86324303481334e-13,
+      "forward_correct_logit_gradient": -0.9997254014015198,
+      "reverse_logit_gradient_norm": 4.9513066187500954e-05,
+      "forward_logit_gradient_norm": 1.4139225482940674
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 3.158765431296104e-14,
+      "q_correct": 0.9996300339698792,
+      "reverse_kl": 12.625188827514648,
+      "reverse_correct_logit_gradient": -1.3807225762024755e-12,
+      "forward_correct_logit_gradient": -0.9996300339698792,
+      "reverse_logit_gradient_norm": 0.00015843335131648928,
+      "forward_logit_gradient_norm": 1.4138984680175781
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999198913574219,
+      "q_correct": 0.8132672309875488,
+      "reverse_kl": 0.20693713426589966,
+      "reverse_correct_logit_gradient": -0.000321660510962829,
+      "forward_correct_logit_gradient": 0.18665266036987305,
+      "reverse_logit_gradient_norm": 0.00037219160003587604,
+      "forward_logit_gradient_norm": 0.22951169312000275
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999313354492188,
+      "q_correct": 1.0,
+      "reverse_kl": 0.0009459997527301311,
+      "reverse_correct_logit_gradient": -0.0010145946871489286,
+      "forward_correct_logit_gradient": -6.866455078125e-05,
+      "reverse_logit_gradient_norm": 0.0011948803439736366,
+      "forward_logit_gradient_norm": 8.096592500805855e-05
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.0276671955902414e-13,
+      "q_correct": 0.9998588562011719,
+      "reverse_kl": 14.00006103515625,
+      "reverse_correct_logit_gradient": -4.51209989510426e-12,
+      "forward_correct_logit_gradient": -0.9998588562011719,
+      "reverse_logit_gradient_norm": 6.612845754716545e-05,
+      "forward_logit_gradient_norm": 1.414067268371582
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.2789475153842517e-13,
+      "q_correct": 0.9995880722999573,
+      "reverse_kl": 13.62530517578125,
+      "reverse_correct_logit_gradient": -5.539436531004638e-12,
+      "forward_correct_logit_gradient": -0.9995880722999573,
+      "reverse_logit_gradient_norm": 7.574172195745632e-05,
+      "forward_logit_gradient_norm": 1.4138729572296143
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999351501464844,
+      "q_correct": 1.0,
+      "reverse_kl": 0.0010345722548663616,
+      "reverse_correct_logit_gradient": -0.0010993508622050285,
+      "forward_correct_logit_gradient": -6.4849853515625e-05,
+      "reverse_logit_gradient_norm": 0.00120423617772758,
+      "forward_logit_gradient_norm": 7.082727097440511e-05
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999198913574219,
+      "q_correct": 1.0,
+      "reverse_kl": 0.0014142353320494294,
+      "reverse_correct_logit_gradient": -0.0014942242996767163,
+      "forward_correct_logit_gradient": -8.0108642578125e-05,
+      "reverse_logit_gradient_norm": 0.0016757661942392588,
+      "forward_logit_gradient_norm": 8.994634845294058e-05
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 4.1520240479271664e-14,
+      "q_correct": 0.9996243119239807,
+      "reverse_kl": 10.125578880310059,
+      "reverse_correct_logit_gradient": -1.699747222312642e-12,
+      "forward_correct_logit_gradient": -0.9996243119239807,
+      "reverse_logit_gradient_norm": 0.0003976039297413081,
+      "forward_logit_gradient_norm": 1.4138520956039429
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 3.607368649128674e-14,
+      "q_correct": 0.9994165301322937,
+      "reverse_kl": 9.500774383544922,
+      "reverse_correct_logit_gradient": -1.45930338125988e-12,
+      "forward_correct_logit_gradient": -0.9994165301322937,
+      "reverse_logit_gradient_norm": 0.0003915502456948161,
+      "forward_logit_gradient_norm": 1.4136861562728882
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999160766601562,
+      "q_correct": 0.09449619799852371,
+      "reverse_kl": 2.3596670627593994,
+      "reverse_correct_logit_gradient": -0.0005552302463911474,
+      "forward_correct_logit_gradient": 0.9054198861122131,
+      "reverse_logit_gradient_norm": 0.0007086606347002089,
+      "forward_logit_gradient_norm": 1.2742277383804321
+    },
+    {
+      "state": "rkl_checked-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999160766601562,
+      "q_correct": 0.9062412977218628,
+      "reverse_kl": 0.09909937530755997,
+      "reverse_correct_logit_gradient": -0.0007335300324484706,
+      "forward_correct_logit_gradient": 0.09367477893829346,
+      "reverse_logit_gradient_norm": 0.0009284775005653501,
+      "forward_logit_gradient_norm": 0.11561189591884613
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 6.101913137095127e-13,
+      "q_correct": 0.9998016357421875,
+      "reverse_kl": 14.875173568725586,
+      "reverse_correct_logit_gradient": -2.6238212991192e-11,
+      "forward_correct_logit_gradient": -0.9998016357421875,
+      "reverse_logit_gradient_norm": 2.239314380858559e-05,
+      "forward_logit_gradient_norm": 1.4140703678131104
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 8.34032658474787e-13,
+      "q_correct": 0.9996529221534729,
+      "reverse_kl": 12.000333786010742,
+      "reverse_correct_logit_gradient": -3.320491798186609e-11,
+      "forward_correct_logit_gradient": -0.9996529221534729,
+      "reverse_logit_gradient_norm": 1.1824698958662339e-05,
+      "forward_logit_gradient_norm": 1.4139611721038818
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999961853027344,
+      "q_correct": 0.9948121905326843,
+      "reverse_kl": 0.005210538394749165,
+      "reverse_correct_logit_gradient": -1.3013320312893484e-05,
+      "forward_correct_logit_gradient": 0.005183994770050049,
+      "reverse_logit_gradient_norm": 1.3631926776724868e-05,
+      "forward_logit_gradient_norm": 0.006479592062532902
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999961853027344,
+      "q_correct": 1.0,
+      "reverse_kl": 2.8001137252431363e-05,
+      "reverse_correct_logit_gradient": -3.181571446475573e-05,
+      "forward_correct_logit_gradient": -3.814697265625e-06,
+      "reverse_logit_gradient_norm": 3.2735493732616305e-05,
+      "forward_logit_gradient_norm": 3.869197826134041e-06
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.0709191779895155e-12,
+      "q_correct": 0.9997254014015198,
+      "reverse_kl": 10.000266075134277,
+      "reverse_correct_logit_gradient": -4.022639860101762e-11,
+      "forward_correct_logit_gradient": -0.9997254014015198,
+      "reverse_logit_gradient_norm": 6.149705768621061e-06,
+      "forward_logit_gradient_norm": 1.4139846563339233
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.6586657177949937e-12,
+      "q_correct": 0.9996300339698792,
+      "reverse_kl": 12.625321388244629,
+      "reverse_correct_logit_gradient": -6.593189189052495e-11,
+      "forward_correct_logit_gradient": -0.9996300339698792,
+      "reverse_logit_gradient_norm": 4.173850902589038e-05,
+      "forward_logit_gradient_norm": 1.4139442443847656
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999961853027344,
+      "q_correct": 0.8132672309875488,
+      "reverse_kl": 0.2067050337791443,
+      "reverse_correct_logit_gradient": -1.329178485320881e-05,
+      "forward_correct_logit_gradient": 0.18672895431518555,
+      "reverse_logit_gradient_norm": 1.4712543816131074e-05,
+      "forward_logit_gradient_norm": 0.2295738011598587
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9999961853027344,
+      "q_correct": 1.0,
+      "reverse_kl": 5.245245120022446e-05,
+      "reverse_correct_logit_gradient": -5.626693382509984e-05,
+      "forward_correct_logit_gradient": -3.814697265625e-06,
+      "reverse_logit_gradient_norm": 5.8548521337797865e-05,
+      "forward_logit_gradient_norm": 4.016254479211057e-06
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.4187265728535237e-12,
+      "q_correct": 0.9998588562011719,
+      "reverse_kl": 14.000112533569336,
+      "reverse_correct_logit_gradient": -5.856678336746413e-11,
+      "forward_correct_logit_gradient": -0.9998588562011719,
+      "reverse_logit_gradient_norm": 1.7317672245553695e-05,
+      "forward_logit_gradient_norm": 1.4141050577163696
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 2.2671014371367093e-12,
+      "q_correct": 0.9995880722999573,
+      "reverse_kl": 13.625345230102539,
+      "reverse_correct_logit_gradient": -9.167581277447212e-11,
+      "forward_correct_logit_gradient": -0.9995880722999573,
+      "reverse_logit_gradient_norm": 4.974657349521294e-05,
+      "forward_logit_gradient_norm": 1.4139080047607422
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.999969482421875,
+      "q_correct": 1.0,
+      "reverse_kl": 0.0005945286247879267,
+      "reverse_correct_logit_gradient": -0.0006250271108001471,
+      "forward_correct_logit_gradient": -3.0517578125e-05,
+      "reverse_logit_gradient_norm": 0.0008692211704328656,
+      "forward_logit_gradient_norm": 4.1105286072706804e-05
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.999969482421875,
+      "q_correct": 1.0,
+      "reverse_kl": 0.0006255702464841306,
+      "reverse_correct_logit_gradient": -0.0006560678011737764,
+      "forward_correct_logit_gradient": -3.0517578125e-05,
+      "reverse_logit_gradient_norm": 0.0009130679536610842,
+      "forward_logit_gradient_norm": 4.110503141419031e-05
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.418742835886111e-12,
+      "q_correct": 0.9996243119239807,
+      "reverse_kl": 10.125387191772461,
+      "reverse_correct_logit_gradient": -5.306986447517481e-11,
+      "forward_correct_logit_gradient": -0.9996243119239807,
+      "reverse_logit_gradient_norm": 1.1580153113754932e-05,
+      "forward_logit_gradient_norm": 1.4139195680618286
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.9391840563875995e-12,
+      "q_correct": 0.9994165301322937,
+      "reverse_kl": 9.500555992126465,
+      "reverse_correct_logit_gradient": -7.071957602855505e-11,
+      "forward_correct_logit_gradient": -0.9994165301322937,
+      "reverse_logit_gradient_norm": 2.3961463739397004e-05,
+      "forward_logit_gradient_norm": 1.4137455224990845
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.0,
+      "q_correct": 0.09449619799852371,
+      "reverse_kl": 2.359198570251465,
+      "reverse_correct_logit_gradient": -2.86102294921875e-06,
+      "forward_correct_logit_gradient": 0.9055038094520569,
+      "reverse_logit_gradient_norm": 3.0199807952158153e-06,
+      "forward_logit_gradient_norm": 1.2742873430252075
+    },
+    {
+      "state": "rkl_onpolicy-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.0,
+      "q_correct": 0.9062412977218628,
+      "reverse_kl": 0.09845192730426788,
+      "reverse_correct_logit_gradient": -2.2202730178833008e-06,
+      "forward_correct_logit_gradient": 0.09375870227813721,
+      "reverse_logit_gradient_norm": 2.5045787879207637e-06,
+      "forward_logit_gradient_norm": 0.11567993462085724
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 3.9328742628026714e-13,
+      "q_correct": 0.9998016357421875,
+      "reverse_kl": 14.87320613861084,
+      "reverse_correct_logit_gradient": -1.708332260375034e-11,
+      "forward_correct_logit_gradient": -0.9998016357421875,
+      "reverse_logit_gradient_norm": 0.00033467100001871586,
+      "forward_logit_gradient_norm": 1.4128482341766357
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 8.332504066073387e-13,
+      "q_correct": 0.9996529221534729,
+      "reverse_kl": 11.999748229980469,
+      "reverse_correct_logit_gradient": -3.317406765956932e-11,
+      "forward_correct_logit_gradient": -0.9996529221534729,
+      "reverse_logit_gradient_norm": 0.0004880249034613371,
+      "forward_logit_gradient_norm": 1.41329824924469
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9980106949806213,
+      "q_correct": 0.9948121905326843,
+      "reverse_kl": 0.02020803838968277,
+      "reverse_correct_logit_gradient": -0.016964156180620193,
+      "forward_correct_logit_gradient": 0.0031985044479370117,
+      "reverse_logit_gradient_norm": 0.023563778027892113,
+      "forward_logit_gradient_norm": 0.005386114586144686
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9982467889785767,
+      "q_correct": 1.0,
+      "reverse_kl": 0.03315489739179611,
+      "reverse_correct_logit_gradient": -0.03484845533967018,
+      "forward_correct_logit_gradient": -0.0017532110214233398,
+      "reverse_logit_gradient_norm": 0.04851554334163666,
+      "forward_logit_gradient_norm": 0.0024428556207567453
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 6.55654783937587e-12,
+      "q_correct": 0.9997254014015198,
+      "reverse_kl": 10.000557899475098,
+      "reverse_correct_logit_gradient": -2.344020810784997e-10,
+      "forward_correct_logit_gradient": -0.9997254014015198,
+      "reverse_logit_gradient_norm": 0.0010779710719361901,
+      "forward_logit_gradient_norm": 1.4135936498641968
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.0810785426584868e-11,
+      "q_correct": 0.9996300339698792,
+      "reverse_kl": 12.624671936035156,
+      "reverse_correct_logit_gradient": -4.0945610790821263e-10,
+      "forward_correct_logit_gradient": -0.9996300339698792,
+      "reverse_logit_gradient_norm": 0.00028885158826597035,
+      "forward_logit_gradient_norm": 1.4136126041412354
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9995766878128052,
+      "q_correct": 0.8132672309875488,
+      "reverse_kl": 0.2088983952999115,
+      "reverse_correct_logit_gradient": -0.002625158289447427,
+      "forward_correct_logit_gradient": 0.18630945682525635,
+      "reverse_logit_gradient_norm": 0.003254585899412632,
+      "forward_logit_gradient_norm": 0.229229137301445
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9994775056838989,
+      "q_correct": 1.0,
+      "reverse_kl": 0.009269779548048973,
+      "reverse_correct_logit_gradient": -0.00978727638721466,
+      "forward_correct_logit_gradient": -0.0005224943161010742,
+      "reverse_logit_gradient_norm": 0.011890474706888199,
+      "forward_logit_gradient_norm": 0.0006341167609207332
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 9.436202904125612e-13,
+      "q_correct": 0.9998588562011719,
+      "reverse_kl": 14.000858306884766,
+      "reverse_correct_logit_gradient": -3.933931305710736e-11,
+      "forward_correct_logit_gradient": -0.9998588562011719,
+      "reverse_logit_gradient_norm": 0.0031930338591337204,
+      "forward_logit_gradient_norm": 1.4130172729492188
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.6566358744876664e-12,
+      "q_correct": 0.9995880722999573,
+      "reverse_kl": 13.623416900634766,
+      "reverse_correct_logit_gradient": -6.750664610644108e-11,
+      "forward_correct_logit_gradient": -0.9995880722999573,
+      "reverse_logit_gradient_norm": 0.0010560696246102452,
+      "forward_logit_gradient_norm": 1.4130513668060303
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9984714984893799,
+      "q_correct": 1.0,
+      "reverse_kl": 0.02915731631219387,
+      "reverse_correct_logit_gradient": -0.03064010478556156,
+      "forward_correct_logit_gradient": -0.0015285015106201172,
+      "reverse_logit_gradient_norm": 0.04299779608845711,
+      "forward_logit_gradient_norm": 0.002142429817467928
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9986504912376404,
+      "q_correct": 1.0,
+      "reverse_kl": 0.026941703632473946,
+      "reverse_correct_logit_gradient": -0.02825392596423626,
+      "forward_correct_logit_gradient": -0.0013495087623596191,
+      "reverse_logit_gradient_norm": 0.03962964564561844,
+      "forward_logit_gradient_norm": 0.0018912892555817962
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 5.909869490484942e-13,
+      "q_correct": 0.9996243119239807,
+      "reverse_kl": 10.1255464553833,
+      "reverse_correct_logit_gradient": -2.2624253165348662e-11,
+      "forward_correct_logit_gradient": -0.9996243119239807,
+      "reverse_logit_gradient_norm": 0.0012654010206460953,
+      "forward_logit_gradient_norm": 1.4134020805358887
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 1.374389859733205e-12,
+      "q_correct": 0.9994165301322937,
+      "reverse_kl": 9.500199317932129,
+      "reverse_correct_logit_gradient": -5.059489979752918e-11,
+      "forward_correct_logit_gradient": -0.9994165301322937,
+      "reverse_logit_gradient_norm": 0.00016022614727262408,
+      "forward_logit_gradient_norm": 1.4133869409561157
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9992449879646301,
+      "q_correct": 0.09449619799852371,
+      "reverse_kl": 2.3615448474884033,
+      "reverse_correct_logit_gradient": -0.003102104412391782,
+      "forward_correct_logit_gradient": 0.904748797416687,
+      "reverse_logit_gradient_norm": 0.004238435532897711,
+      "forward_logit_gradient_norm": 1.273751139640808
+    },
+    {
+      "state": "rkl_onpolicy-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.999340295791626,
+      "q_correct": 0.9062412977218628,
+      "reverse_kl": 0.10143013298511505,
+      "reverse_correct_logit_gradient": -0.0036379669327288866,
+      "forward_correct_logit_gradient": 0.09309899806976318,
+      "reverse_logit_gradient_norm": 0.0049851140938699245,
+      "forward_logit_gradient_norm": 0.11514680087566376
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999351501464844,
+      "q_correct": 0.9998016357421875,
+      "reverse_kl": 0.0005938264657743275,
+      "reverse_correct_logit_gradient": -0.0004602822009474039,
+      "forward_correct_logit_gradient": 0.000133514404296875,
+      "reverse_logit_gradient_norm": 0.0005582968587987125,
+      "forward_logit_gradient_norm": 0.00021556751744356006
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999275207519531,
+      "q_correct": 0.9996529221534729,
+      "reverse_kl": 0.0006182189099490643,
+      "reverse_correct_logit_gradient": -0.0003435357939451933,
+      "forward_correct_logit_gradient": 0.0002745985984802246,
+      "reverse_logit_gradient_norm": 0.0004175449430476874,
+      "forward_logit_gradient_norm": 0.00040826539043337107
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9996529221534729,
+      "q_correct": 0.9948121905326843,
+      "reverse_kl": 0.0068221366964280605,
+      "reverse_correct_logit_gradient": -0.0019672513008117676,
+      "forward_correct_logit_gradient": 0.004840731620788574,
+      "reverse_logit_gradient_norm": 0.002086930675432086,
+      "forward_logit_gradient_norm": 0.00620703399181366
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9997634887695312,
+      "q_correct": 1.0,
+      "reverse_kl": 0.003075347049161792,
+      "reverse_correct_logit_gradient": -0.00331107503734529,
+      "forward_correct_logit_gradient": -0.00023651123046875,
+      "reverse_logit_gradient_norm": 0.003509358037263155,
+      "forward_logit_gradient_norm": 0.0002554275852162391
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999656677246094,
+      "q_correct": 0.9997254014015198,
+      "reverse_kl": 0.0002538049011491239,
+      "reverse_correct_logit_gradient": -1.3478510481945705e-05,
+      "forward_correct_logit_gradient": 0.0002402663230895996,
+      "reverse_logit_gradient_norm": 2.9359960535657592e-05,
+      "forward_logit_gradient_norm": 0.0003019408613909036
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999656677246094,
+      "q_correct": 0.9996300339698792,
+      "reverse_kl": 0.0004441373748704791,
+      "reverse_correct_logit_gradient": -0.00010844029020518064,
+      "forward_correct_logit_gradient": 0.0003356337547302246,
+      "reverse_logit_gradient_norm": 0.00013419690367300063,
+      "forward_logit_gradient_norm": 0.00047568752779625356
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9997901916503906,
+      "q_correct": 0.8132672309875488,
+      "reverse_kl": 0.20752672851085663,
+      "reverse_correct_logit_gradient": -0.001040761824697256,
+      "forward_correct_logit_gradient": 0.1865229606628418,
+      "reverse_logit_gradient_norm": 0.0011254075216129422,
+      "forward_logit_gradient_norm": 0.2294052094221115
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9998302459716797,
+      "q_correct": 1.0,
+      "reverse_kl": 0.0020980890840291977,
+      "reverse_correct_logit_gradient": -0.0022674582432955503,
+      "forward_correct_logit_gradient": -0.0001697540283203125,
+      "reverse_logit_gradient_norm": 0.002356566023081541,
+      "forward_logit_gradient_norm": 0.0001772426039678976
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.99993896484375,
+      "q_correct": 0.9998588562011719,
+      "reverse_kl": 0.0005306796520017087,
+      "reverse_correct_logit_gradient": -0.00045054350630380213,
+      "forward_correct_logit_gradient": 8.0108642578125e-05,
+      "reverse_logit_gradient_norm": 0.0005274349823594093,
+      "forward_logit_gradient_norm": 0.0001544717961223796
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999256134033203,
+      "q_correct": 0.9995880722999573,
+      "reverse_kl": 0.0009360607364214957,
+      "reverse_correct_logit_gradient": -0.0005984154995530844,
+      "forward_correct_logit_gradient": 0.0003375411033630371,
+      "reverse_logit_gradient_norm": 0.0007084884564392269,
+      "forward_logit_gradient_norm": 0.0005115492967888713
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9996472001075745,
+      "q_correct": 1.0,
+      "reverse_kl": 0.004968871362507343,
+      "reverse_correct_logit_gradient": -0.005319853313267231,
+      "forward_correct_logit_gradient": -0.0003527998924255371,
+      "reverse_logit_gradient_norm": 0.005650083534419537,
+      "forward_logit_gradient_norm": 0.00037912142579443753
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9997406601905823,
+      "q_correct": 1.0,
+      "reverse_kl": 0.0038299793377518654,
+      "reverse_correct_logit_gradient": -0.004088318441063166,
+      "forward_correct_logit_gradient": -0.0002593398094177246,
+      "reverse_logit_gradient_norm": 0.004281439818441868,
+      "forward_logit_gradient_norm": 0.00027583606424741447
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.999969482421875,
+      "q_correct": 0.9996243119239807,
+      "reverse_kl": 0.00037810049252584577,
+      "reverse_correct_logit_gradient": -3.286938590463251e-05,
+      "forward_correct_logit_gradient": 0.0003451704978942871,
+      "reverse_logit_gradient_norm": 5.284222061163746e-05,
+      "forward_logit_gradient_norm": 0.000436145142884925
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999809265136719,
+      "q_correct": 0.9994165301322937,
+      "reverse_kl": 0.0005803898093290627,
+      "reverse_correct_logit_gradient": -1.581431206432171e-05,
+      "forward_correct_logit_gradient": 0.0005643963813781738,
+      "reverse_logit_gradient_norm": 4.763608012581244e-05,
+      "forward_logit_gradient_norm": 0.0007142777321860194
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.999580442905426,
+      "q_correct": 0.09449619799852371,
+      "reverse_kl": 2.3603029251098633,
+      "reverse_correct_logit_gradient": -0.0015261919470503926,
+      "forward_correct_logit_gradient": 0.9050842523574829,
+      "reverse_logit_gradient_norm": 0.0016230931505560875,
+      "forward_logit_gradient_norm": 1.2739884853363037
+    },
+    {
+      "state": "sft-17",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9996243119239807,
+      "q_correct": 0.9062412977218628,
+      "reverse_kl": 0.09999625384807587,
+      "reverse_correct_logit_gradient": -0.001921572256833315,
+      "forward_correct_logit_gradient": 0.09338301420211792,
+      "reverse_logit_gradient_norm": 0.0019882109481841326,
+      "forward_logit_gradient_norm": 0.11537265032529831
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999160766601562,
+      "q_correct": 0.9998016357421875,
+      "reverse_kl": 0.000593550328630954,
+      "reverse_correct_logit_gradient": -0.0004790691891685128,
+      "forward_correct_logit_gradient": 0.00011444091796875,
+      "reverse_logit_gradient_norm": 0.0005450154421851039,
+      "forward_logit_gradient_norm": 0.0002037211525021121
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.99981689453125,
+      "q_correct": 0.9996529221534729,
+      "reverse_kl": 0.0009718025103211403,
+      "reverse_correct_logit_gradient": -0.0008076226222328842,
+      "forward_correct_logit_gradient": 0.0001639723777770996,
+      "reverse_logit_gradient_norm": 0.000893029326107353,
+      "forward_logit_gradient_norm": 0.00035904391552321613
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9993688464164734,
+      "q_correct": 0.9948121905326843,
+      "reverse_kl": 0.01101253554224968,
+      "reverse_correct_logit_gradient": -0.006438462063670158,
+      "forward_correct_logit_gradient": 0.0045566558837890625,
+      "reverse_logit_gradient_norm": 0.007547386456280947,
+      "forward_logit_gradient_norm": 0.005995854269713163
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9997139573097229,
+      "q_correct": 1.0,
+      "reverse_kl": 0.004293873906135559,
+      "reverse_correct_logit_gradient": -0.004578666295856237,
+      "forward_correct_logit_gradient": -0.0002860426902770996,
+      "reverse_logit_gradient_norm": 0.005041879136115313,
+      "forward_logit_gradient_norm": 0.00031547731487080455
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999179840087891,
+      "q_correct": 0.9997254014015198,
+      "reverse_kl": 0.0003926835488528013,
+      "reverse_correct_logit_gradient": -0.00020002493693027645,
+      "forward_correct_logit_gradient": 0.0001925826072692871,
+      "reverse_logit_gradient_norm": 0.00020265314378775656,
+      "forward_logit_gradient_norm": 0.00026508522569201887
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9997787475585938,
+      "q_correct": 0.9996300339698792,
+      "reverse_kl": 0.0012716344790533185,
+      "reverse_correct_logit_gradient": -0.0011226128553971648,
+      "forward_correct_logit_gradient": 0.0001487135887145996,
+      "reverse_logit_gradient_norm": 0.0012829876504838467,
+      "forward_logit_gradient_norm": 0.00039865911821834743
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9995461702346802,
+      "q_correct": 0.8132672309875488,
+      "reverse_kl": 0.2092701643705368,
+      "reverse_correct_logit_gradient": -0.0030271823052316904,
+      "forward_correct_logit_gradient": 0.18627893924713135,
+      "reverse_logit_gradient_norm": 0.0035648655612021685,
+      "forward_logit_gradient_norm": 0.22920136153697968
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9997311234474182,
+      "q_correct": 1.0,
+      "reverse_kl": 0.0036646805237978697,
+      "reverse_correct_logit_gradient": -0.0039325593970716,
+      "forward_correct_logit_gradient": -0.0002688765525817871,
+      "reverse_logit_gradient_norm": 0.004269439727067947,
+      "forward_logit_gradient_norm": 0.00029064813861623406
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999637603759766,
+      "q_correct": 0.9998588562011719,
+      "reverse_kl": 0.0002864902780856937,
+      "reverse_correct_logit_gradient": -0.000181579525815323,
+      "forward_correct_logit_gradient": 0.0001049041748046875,
+      "reverse_logit_gradient_norm": 0.00019534870807547122,
+      "forward_logit_gradient_norm": 0.0001634078216738999
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.999908447265625,
+      "q_correct": 0.9995880722999573,
+      "reverse_kl": 0.0008072508499026299,
+      "reverse_correct_logit_gradient": -0.0004867717216257006,
+      "forward_correct_logit_gradient": 0.0003203749656677246,
+      "reverse_logit_gradient_norm": 0.0005392833263613284,
+      "forward_logit_gradient_norm": 0.0005005868151783943
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9993612170219421,
+      "q_correct": 1.0,
+      "reverse_kl": 0.009927446022629738,
+      "reverse_correct_logit_gradient": -0.010559658519923687,
+      "forward_correct_logit_gradient": -0.0006387829780578613,
+      "reverse_logit_gradient_norm": 0.011998900212347507,
+      "forward_logit_gradient_norm": 0.0007270307396538556
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9996433854103088,
+      "q_correct": 1.0,
+      "reverse_kl": 0.00575453182682395,
+      "reverse_correct_logit_gradient": -0.006109026726335287,
+      "forward_correct_logit_gradient": -0.0003566145896911621,
+      "reverse_logit_gradient_norm": 0.0068771629594266415,
+      "forward_logit_gradient_norm": 0.0004022330103907734
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9999370574951172,
+      "q_correct": 0.9996243119239807,
+      "reverse_kl": 0.0004772853571921587,
+      "reverse_correct_logit_gradient": -0.00016446983499918133,
+      "forward_correct_logit_gradient": 0.0003127455711364746,
+      "reverse_logit_gradient_norm": 0.0001666215102886781,
+      "forward_logit_gradient_norm": 0.00041058470378629863
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 39323,
+      "predicted_first_id": 39323,
+      "predicted_first_text": "kest",
+      "p_correct": 0.9998302459716797,
+      "q_correct": 0.9994165301322937,
+      "reverse_kl": 0.0008726185187697411,
+      "reverse_correct_logit_gradient": -0.00045864598359912634,
+      "forward_correct_logit_gradient": 0.00041371583938598633,
+      "reverse_logit_gradient_norm": 0.0004674506199080497,
+      "forward_logit_gradient_norm": 0.0006000821595080197
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9995671510696411,
+      "q_correct": 0.09449619799852371,
+      "reverse_kl": 2.3607194423675537,
+      "reverse_correct_logit_gradient": -0.0019558542408049107,
+      "forward_correct_logit_gradient": 0.905070960521698,
+      "reverse_logit_gradient_norm": 0.002356539014726877,
+      "forward_logit_gradient_norm": 1.2739665508270264
+    },
+    {
+      "state": "sft-29",
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "correct_first_id": 76,
+      "predicted_first_id": 76,
+      "predicted_first_text": "m",
+      "p_correct": 0.9997615814208984,
+      "q_correct": 0.9062412977218628,
+      "reverse_kl": 0.09972227364778519,
+      "reverse_correct_logit_gradient": -0.0015106250066310167,
+      "forward_correct_logit_gradient": 0.09352028369903564,
+      "reverse_logit_gradient_norm": 0.0017070595640689135,
+      "forward_logit_gradient_norm": 0.1154838427901268
+    }
+  ],
+  "teacher_alignment": [
+    {
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "nup"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 76,
+      "prefix_argmax": 76
+    },
+    {
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "nup"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 76,
+      "prefix_argmax": 76
+    },
+    {
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "zelk"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 76,
+      "prefix_argmax": 76
+    },
+    {
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "zelk"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 76,
+      "prefix_argmax": 76
+    },
+    {
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "bimav"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 76,
+      "prefix_argmax": 76
+    },
+    {
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "bimav"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 76,
+      "prefix_argmax": 76
+    },
+    {
+      "case": {
+        "channel": "copper",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "copper",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "violet",
+        "priority": "slow",
+        "identifier": "fosted"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 39323,
+      "prefix_argmax": 39323
+    },
+    {
+      "case": {
+        "channel": "violet",
+        "priority": "fast",
+        "identifier": "fosted"
+      },
+      "max_abs_logprob_delta": 0.0,
+      "full_argmax": 76,
+      "prefix_argmax": 76
+    }
+  ],
+  "seconds": 27.933324249999714,
+  "base_unchanged": true,
+  "reset_max_logit_delta": 0.0
+}
