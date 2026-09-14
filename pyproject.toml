@@ -1,0 +1,15 @@
+[project]
+name = "procedure-transfer"
+version = "0.1.0"
+requires-python = ">=3.12,<3.15"
+dependencies = []
+
+[project.optional-dependencies]
+# Same pinned mlx-lm commit as the sibling update-source-selection study
+# (provenance: its 10 September 2026 report); the lock records the commit.
+adaptation = [
+  "mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git@86b48c461feebf87c58788655b7e57b5574b9e6d",
+]
+
+[tool.uv]
+package = false

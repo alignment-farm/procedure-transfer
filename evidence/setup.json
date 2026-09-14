@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-09-14T05:56:42.111366+00:00",
+  "host": "Darwin mac-studio-7HR7.local 25.6.0 Darwin Kernel Version 25.6.0: Fri Jul 31 19:18:49 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6000 arm64",
+  "physical_memory_bytes": 68719476736,
+  "uv_version": "0.12.13",
+  "docker_model": "{\n    \"id\": \"sha256:f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef\",\n    \"tags\": [\n        \"docker.io/ai/qwen3.8:27b-q4_K_M\"\n    ],\n    \"created\": 0,\n    \"config\": {\n        \"format\": \"gguf\"\n    }\n}\n",
+  "docker_status": "Docker Model Runner is running\n\nBACKEND    STATUS         DETAILS                                                                                                  \nllama.cpp  Running        llama.cpp b9879-metal (sha256:b70706f473b4043ca3e0c32704a7fda3412b83bceef0564684187b8011230de8) 72874f5  \ndiffusers  Not Installed                                                                                                           \nmlx        Not Installed  package not installed                                                                                    \nvllm       Not Installed                                                                                                           \n",
+  "model_download": "Qwen/Qwen3-4B-Instruct-2507 @ cdbee75f17c01a7cc42f958dc650907174af0554",
+  "setup_wall_seconds": "not independently metered; download and package preparation excluded from main-run time",
+  "sibling_revision": "08d8ec1b0b757e8a537a14d708bd895e8829ac68"
+}

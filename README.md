@@ -1,7 +1,12 @@
 # Procedure transfer
 
-**Status: prepared for an independent ancillary session, 13 September 2026.
-The investigation has not started.**
+**Status: investigation underway, 14 September 2026.**
+
+The local study is testing fixed-evidence context distillation against direct
+imitation, with a reverse-KL control that isolates response-prefix source.
+See the [start note](notes/2026-09-14-start.md), [primary-source reading](sources/README.md),
+[draft protocol](protocol/transfer-v1.md), and [reproduction instructions](notes/reproduction.md).
+Native feasibility and teacher development checks precede the prospective comparison.
 
 This study asks whether a different acquisition method can turn checked
 experience into behavior that transfers to new inputs. It follows the completed

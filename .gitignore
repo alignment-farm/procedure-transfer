@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 .cache/
 models/
+sources/LMOps/
 .env
 .env.*
 !.env.example
