@@ -1,13 +1,24 @@
 # Procedure transfer
 
-**Status: investigation underway, 14 September 2026.**
+**Status: bounded investigation complete, 14 September 2026.**
 
-The local study is testing fixed-evidence context distillation against direct
-imitation, with a reverse-KL control that isolates response-prefix source.
-See the [start note](notes/2026-09-14-start.md), [primary-source reading](sources/README.md),
-[frozen protocol](protocol/transfer-v1.md), and [reproduction instructions](notes/reproduction.md).
-[Native feasibility and teacher development checks](notes/2026-09-14-development.md)
-are complete; the prospective comparison uses the selected teacher prompt.
+**The tested evidence-conditioned distillation recipe did not improve transfer.**
+On-policy students scored 0/96 and 2/96 on fresh inputs, versus direct imitation's
+24/96 and 32/96. Retaining the checked examples with a development-selected
+generic reminder scored 89/96. Both distillation variants also had poor training
+recall. These are local results for one shared LoRA recipe, not a general
+limitation of context distillation.
+
+- [FINDINGS.md](FINDINGS.md): local publication, interpretation, scope and stop decision.
+- [Frozen protocol](protocol/transfer-v1.md), committed as `5f636fb` before the prospective run.
+- [Audited results](evidence/transfer-v1-analysis/README.md), [raw responses](evidence/transfer-v1/responses.jsonl),
+  and [saved-adapter audit](evidence/transfer-v1-reload-audit/audit.json), preserved at `ab87431`.
+- [Development history](notes/2026-09-14-development.md), [primary-source reading](sources/README.md),
+  and [reproduction instructions](notes/reproduction.md).
+
+The original starting question and expectations below are preserved for context.
+The completed investigation stops at acquisition and immediate transfer; it does
+not test later retention or correction.
 
 This study asks whether a different acquisition method can turn checked
 experience into behavior that transfers to new inputs. It follows the completed
