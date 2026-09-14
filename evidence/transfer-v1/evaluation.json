@@ -1,0 +1,482 @@
+[
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "awfg"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "awfg"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "awfg"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "awfg"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "iuwc"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "iuwc"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "iuwc"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "iuwc"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "ward"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "ward"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "ward"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "ward"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "zcwx"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "zcwx"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "zcwx"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "zcwx"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "umgv"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "umgv"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "umgv"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "umgv"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "qkpk"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "qkpk"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "qkpk"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "qkpk"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "pobvdf"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "pobvdf"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "pobvdf"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "pobvdf"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "wyekfq"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "wyekfq"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "wyekfq"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "wyekfq"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "sixthq"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "sixthq"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "sixthq"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "sixthq"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "fvhrej"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "fvhrej"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "fvhrej"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "fvhrej"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "shtfco"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "shtfco"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "shtfco"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "shtfco"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "adwpld"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "adwpld"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "adwpld"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "adwpld"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "labdefuj"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "labdefuj"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "labdefuj"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "labdefuj"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "fufmhvwh"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "fufmhvwh"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "fufmhvwh"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "fufmhvwh"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "otcmxkch"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "otcmxkch"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "otcmxkch"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "otcmxkch"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "ugklesfk"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "ugklesfk"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "ugklesfk"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "ugklesfk"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "xlgeqcyj"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "xlgeqcyj"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "xlgeqcyj"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "xlgeqcyj"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "usptgpvo"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "usptgpvo"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "usptgpvo"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "usptgpvo"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "qcvqelatve"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "qcvqelatve"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "qcvqelatve"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "qcvqelatve"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "rvspormpje"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "rvspormpje"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "rvspormpje"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "rvspormpje"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "rpquamfzbf"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "rpquamfzbf"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "rpquamfzbf"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "rpquamfzbf"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "uhoiyvuymk"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "uhoiyvuymk"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "uhoiyvuymk"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "uhoiyvuymk"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "zrqqurvkmn"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "zrqqurvkmn"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "zrqqurvkmn"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "zrqqurvkmn"
+  },
+  {
+    "channel": "copper",
+    "priority": "slow",
+    "identifier": "lbhdhvsxjs"
+  },
+  {
+    "channel": "copper",
+    "priority": "fast",
+    "identifier": "lbhdhvsxjs"
+  },
+  {
+    "channel": "violet",
+    "priority": "slow",
+    "identifier": "lbhdhvsxjs"
+  },
+  {
+    "channel": "violet",
+    "priority": "fast",
+    "identifier": "lbhdhvsxjs"
+  }
+]

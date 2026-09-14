@@ -1,0 +1,270 @@
+{
+  "scope": "Post-hoc descriptive parsing. Components require exact call syntax and are not independent successes. No mechanism intervention or new model calls.",
+  "transfer": [
+    {
+      "branch": "examples",
+      "seed": null,
+      "n": 96,
+      "correct": 89,
+      "component_counts": {
+        "format": 96,
+        "route": 96,
+        "identifier": 91,
+        "suffix": 94
+      },
+      "identical_response_across_four_conditions": 0,
+      "identifiers": 24,
+      "emitted_tools": {
+        "kestrel": 48,
+        "marten": 48
+      }
+    },
+    {
+      "branch": "none",
+      "seed": null,
+      "n": 96,
+      "correct": 0,
+      "component_counts": {
+        "format": 96,
+        "route": 48,
+        "identifier": 0,
+        "suffix": 48
+      },
+      "identical_response_across_four_conditions": 0,
+      "identifiers": 24,
+      "emitted_tools": {
+        "marten": 96
+      }
+    },
+    {
+      "branch": "rkl_checked",
+      "seed": 17,
+      "n": 96,
+      "correct": 3,
+      "component_counts": {
+        "format": 96,
+        "route": 48,
+        "identifier": 13,
+        "suffix": 48
+      },
+      "identical_response_across_four_conditions": 13,
+      "identifiers": 24,
+      "emitted_tools": {
+        "kestrel": 96
+      }
+    },
+    {
+      "branch": "rkl_checked",
+      "seed": 29,
+      "n": 96,
+      "correct": 1,
+      "component_counts": {
+        "format": 69,
+        "route": 37,
+        "identifier": 6,
+        "suffix": 35
+      },
+      "identical_response_across_four_conditions": 9,
+      "identifiers": 24,
+      "emitted_tools": {
+        "marten": 96
+      }
+    },
+    {
+      "branch": "rkl_onpolicy",
+      "seed": 17,
+      "n": 96,
+      "correct": 0,
+      "component_counts": {
+        "format": 0,
+        "route": 0,
+        "identifier": 0,
+        "suffix": 0
+      },
+      "identical_response_across_four_conditions": 24,
+      "identifiers": 24,
+      "emitted_tools": {
+        "marten": 96
+      }
+    },
+    {
+      "branch": "rkl_onpolicy",
+      "seed": 29,
+      "n": 96,
+      "correct": 2,
+      "component_counts": {
+        "format": 88,
+        "route": 44,
+        "identifier": 8,
+        "suffix": 44
+      },
+      "identical_response_across_four_conditions": 11,
+      "identifiers": 24,
+      "emitted_tools": {
+        "marten": 96
+      }
+    },
+    {
+      "branch": "rule",
+      "seed": null,
+      "n": 96,
+      "correct": 65,
+      "component_counts": {
+        "format": 96,
+        "route": 96,
+        "identifier": 65,
+        "suffix": 96
+      },
+      "identical_response_across_four_conditions": 0,
+      "identifiers": 24,
+      "emitted_tools": {
+        "kestrel": 48,
+        "marten": 48
+      }
+    },
+    {
+      "branch": "sft",
+      "seed": 17,
+      "n": 96,
+      "correct": 24,
+      "component_counts": {
+        "format": 96,
+        "route": 72,
+        "identifier": 26,
+        "suffix": 88
+      },
+      "identical_response_across_four_conditions": 0,
+      "identifiers": 24,
+      "emitted_tools": {
+        "kestrel": 24,
+        "marten": 72
+      }
+    },
+    {
+      "branch": "sft",
+      "seed": 29,
+      "n": 96,
+      "correct": 32,
+      "component_counts": {
+        "format": 96,
+        "route": 96,
+        "identifier": 32,
+        "suffix": 78
+      },
+      "identical_response_across_four_conditions": 0,
+      "identifiers": 24,
+      "emitted_tools": {
+        "kestrel": 48,
+        "marten": 48
+      }
+    }
+  ],
+  "onpolicy_training_rollouts": [
+    {
+      "seed": 17,
+      "epochs": [
+        {
+          "epoch": 1,
+          "n": 16,
+          "correct": 0,
+          "truncated": 1
+        },
+        {
+          "epoch": 2,
+          "n": 16,
+          "correct": 0,
+          "truncated": 0
+        },
+        {
+          "epoch": 3,
+          "n": 16,
+          "correct": 0,
+          "truncated": 1
+        },
+        {
+          "epoch": 4,
+          "n": 16,
+          "correct": 0,
+          "truncated": 0
+        },
+        {
+          "epoch": 5,
+          "n": 16,
+          "correct": 0,
+          "truncated": 3
+        },
+        {
+          "epoch": 6,
+          "n": 16,
+          "correct": 0,
+          "truncated": 2
+        },
+        {
+          "epoch": 7,
+          "n": 16,
+          "correct": 0,
+          "truncated": 0
+        },
+        {
+          "epoch": 8,
+          "n": 16,
+          "correct": 0,
+          "truncated": 0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "epochs": [
+        {
+          "epoch": 1,
+          "n": 16,
+          "correct": 0,
+          "truncated": 1
+        },
+        {
+          "epoch": 2,
+          "n": 16,
+          "correct": 1,
+          "truncated": 0
+        },
+        {
+          "epoch": 3,
+          "n": 16,
+          "correct": 3,
+          "truncated": 0
+        },
+        {
+          "epoch": 4,
+          "n": 16,
+          "correct": 3,
+          "truncated": 0
+        },
+        {
+          "epoch": 5,
+          "n": 16,
+          "correct": 3,
+          "truncated": 0
+        },
+        {
+          "epoch": 6,
+          "n": 16,
+          "correct": 3,
+          "truncated": 0
+        },
+        {
+          "epoch": 7,
+          "n": 16,
+          "correct": 3,
+          "truncated": 2
+        },
+        {
+          "epoch": 8,
+          "n": 16,
+          "correct": 2,
+          "truncated": 1
+        }
+      ]
+    }
+  ]
+}

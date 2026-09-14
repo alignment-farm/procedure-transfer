@@ -1,0 +1,101 @@
+{
+  "prior_revision": "08d8ec1b0b757e8a537a14d708bd895e8829ac68",
+  "scope": "Identifiers extracted from case lists or item/identifier/word fields in prior response logs; no claim about pretraining contamination.",
+  "prior_identifiers": [
+    "aivubrhy",
+    "boat",
+    "bvng",
+    "cobalt",
+    "copper",
+    "datw",
+    "dsruzq",
+    "fxkxedfwhq",
+    "garden",
+    "harbor",
+    "helicopter",
+    "iesy",
+    "iyqcnm",
+    "lamp",
+    "meadow",
+    "mountain",
+    "nckhyqfnaw",
+    "notebook",
+    "ocehesdhhk",
+    "ocvf",
+    "planet",
+    "pvtrxx",
+    "qnkp",
+    "rgvpfrvr",
+    "rpzboqdp",
+    "sbvsckzw",
+    "sffaytlc",
+    "silver",
+    "strawberry",
+    "svtpcg",
+    "ticket",
+    "tkobny",
+    "uzyfnesm",
+    "vsklhwpkrc",
+    "vvpvvfydvl",
+    "wcporw",
+    "yswihfpzqw",
+    "ztla"
+  ],
+  "prior_response_files": [
+    {
+      "path": "../procedure-acquisition-and-reuse/evidence/pilot-02-attempt-1/responses.jsonl",
+      "sha256": "02923a4c0b6271b78ea476c03e228352be49d306aa787b4dee3e649a1f787627"
+    },
+    {
+      "path": "../procedure-acquisition-and-reuse/evidence/pilot-05-components/responses.jsonl",
+      "sha256": "ca21cdac1cb3455b32dd811047c0fbedf2da2f2e7ffaad170f325859d1c54005"
+    },
+    {
+      "path": "../procedure-acquisition-and-reuse/evidence/acquisition-v1/responses.jsonl",
+      "sha256": "af9eefc20a25fb4d2ca5ce91afde62584ce54a22ac3f8072cb1a950a2c29b8fb"
+    },
+    {
+      "path": "../procedure-acquisition-and-reuse/evidence/pilot-03-mlx/responses.jsonl",
+      "sha256": "081a716a5925927c2e28e24318910728df46f2f73c09afea4e7e2347522ded1a"
+    },
+    {
+      "path": "../procedure-acquisition-and-reuse/evidence/followup-v1/responses.jsonl",
+      "sha256": "6d218cce4a31e50c2c9a0aa748e83489429fb4267b0a2519715d45ede81e5be7"
+    },
+    {
+      "path": "../procedure-acquisition-and-reuse/evidence/pilot-01/responses.jsonl",
+      "sha256": "727b099073f59f46b4825b2a4ab0b916fda3958fe375c6b69147e26d35f68e83"
+    },
+    {
+      "path": "../procedure-acquisition-and-reuse/evidence/pilot-04-execution/responses.jsonl",
+      "sha256": "3ed1347bac24c5db32e914f2e697ecf56721bd5afe57e99b0c652cc7c7ea1568"
+    }
+  ],
+  "new_identifiers": [
+    "adwpld",
+    "awfg",
+    "fufmhvwh",
+    "fvhrej",
+    "iuwc",
+    "labdefuj",
+    "lbhdhvsxjs",
+    "otcmxkch",
+    "pobvdf",
+    "qcvqelatve",
+    "qkpk",
+    "rpquamfzbf",
+    "rvspormpje",
+    "shtfco",
+    "sixthq",
+    "ugklesfk",
+    "uhoiyvuymk",
+    "umgv",
+    "usptgpvo",
+    "ward",
+    "wyekfq",
+    "xlgeqcyj",
+    "zcwx",
+    "zrqqurvkmn"
+  ],
+  "overlap": []
+}

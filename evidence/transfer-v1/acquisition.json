@@ -1,0 +1,130 @@
+[
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "nup"
+    },
+    "expected": "kestrel(text=\"NUP\")"
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "nup"
+    },
+    "expected": "kestrel(text=\"NUP-Q\")"
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "nup"
+    },
+    "expected": "marten(text=\"NUP\")"
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "nup"
+    },
+    "expected": "marten(text=\"NUP-Q\")"
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "zelk"
+    },
+    "expected": "kestrel(text=\"ZELK\")"
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "zelk"
+    },
+    "expected": "kestrel(text=\"ZELK-Q\")"
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "zelk"
+    },
+    "expected": "marten(text=\"ZELK\")"
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "zelk"
+    },
+    "expected": "marten(text=\"ZELK-Q\")"
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "bimav"
+    },
+    "expected": "kestrel(text=\"BIMAV\")"
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "bimav"
+    },
+    "expected": "kestrel(text=\"BIMAV-Q\")"
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "bimav"
+    },
+    "expected": "marten(text=\"BIMAV\")"
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "bimav"
+    },
+    "expected": "marten(text=\"BIMAV-Q\")"
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "fosted"
+    },
+    "expected": "kestrel(text=\"FOSTED\")"
+  },
+  {
+    "case": {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "fosted"
+    },
+    "expected": "kestrel(text=\"FOSTED-Q\")"
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "fosted"
+    },
+    "expected": "marten(text=\"FOSTED\")"
+  },
+  {
+    "case": {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "fosted"
+    },
+    "expected": "marten(text=\"FOSTED-Q\")"
+  }
+]
