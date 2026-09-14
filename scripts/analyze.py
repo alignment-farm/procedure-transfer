@@ -9,6 +9,9 @@ p=argparse.ArgumentParser();p.add_argument('run',type=Path);args=p.parse_args();
 rows=[json.loads(s) for s in (run/'responses.jsonl').read_text().splitlines()]
 events=[json.loads(s) for s in (run/'events.jsonl').read_text().splitlines()]
 assert events[-1]['kind']=='complete' and events[-1]['status']=='complete'
+fixed=next(e for e in events if e['kind']=='all_checkpoints_fixed')
+assert min(r['elapsed'] for r in rows)>fixed['elapsed']
+assert len([e for e in events if e['kind']=='training_complete' and e['elapsed']<fixed['elapsed']])==6
 for line in (run/'SHA256SUMS').read_text().splitlines():
     h,name=line.split('  ',1);assert sha(run/name)==h,name
 for r in rows:

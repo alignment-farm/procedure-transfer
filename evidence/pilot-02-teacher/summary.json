@@ -1,0 +1,8 @@
+{
+  "seconds": 29.792538499998045,
+  "peak_mlx_bytes": 9603382288,
+  "base_unchanged": true,
+  "reset_max_logit_delta": 0.0,
+  "development_correct": 16,
+  "recall_correct": 14
+}

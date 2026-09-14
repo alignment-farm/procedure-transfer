@@ -1,0 +1,168 @@
+{
+  "candidate": "Infer a single consistent protocol from all checked calls below. Account for both input fields and all changes to the text argument when applying it to the new identifier.\n",
+  "selection": "Use candidate only if strictly more than 9/16 development calls correct; otherwise retain original. No further variants.",
+  "development": [
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "wexi"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "wexi"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "wexi"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "wexi"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "jupnal"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "jupnal"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "jupnal"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "jupnal"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "votkeris"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "votkeris"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "votkeris"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "votkeris"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "zunpelavik"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "zunpelavik"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "zunpelavik"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "zunpelavik"
+    }
+  ],
+  "recall": [
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "nup"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "nup"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "nup"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "nup"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "zelk"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "zelk"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "zelk"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "zelk"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "bimav"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "bimav"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "bimav"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "bimav"
+    },
+    {
+      "channel": "copper",
+      "priority": "slow",
+      "identifier": "fosted"
+    },
+    {
+      "channel": "copper",
+      "priority": "fast",
+      "identifier": "fosted"
+    },
+    {
+      "channel": "violet",
+      "priority": "slow",
+      "identifier": "fosted"
+    },
+    {
+      "channel": "violet",
+      "priority": "fast",
+      "identifier": "fosted"
+    }
+  ]
+}

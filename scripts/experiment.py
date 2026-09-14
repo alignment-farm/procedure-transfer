@@ -57,7 +57,7 @@ try:
             check();ctx=branch if branch in ['none','examples','rule'] else 'none'
             p=rt.encode(content(c,ctx));r=rt.generate(p,limit=48)
             row=dict(branch=branch,seed=seed,suite=suite,index=index,case=c,prefix=p,
-                     expected=oracle(c),correct=r['action']==oracle(c),**r)
+                     expected=oracle(c),correct=r['action']==oracle(c),elapsed=time.monotonic()-started,**r)
             responses.write(json.dumps(row)+'\n');responses.flush()
         print('evaluated',branch,seed,suite,len(data),flush=True)
     rt.restore(rt.initial)

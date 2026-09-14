@@ -7,5 +7,15 @@
   "docker_status": "Docker Model Runner is running\n\nBACKEND    STATUS         DETAILS                                                                                                  \nllama.cpp  Running        llama.cpp b9879-metal (sha256:b70706f473b4043ca3e0c32704a7fda3412b83bceef0564684187b8011230de8) 72874f5  \ndiffusers  Not Installed                                                                                                           \nmlx        Not Installed  package not installed                                                                                    \nvllm       Not Installed                                                                                                           \n",
   "model_download": "Qwen/Qwen3-4B-Instruct-2507 @ cdbee75f17c01a7cc42f958dc650907174af0554",
   "setup_wall_seconds": "not independently metered; download and package preparation excluded from main-run time",
-  "sibling_revision": "08d8ec1b0b757e8a537a14d708bd895e8829ac68"
+  "sibling_revision": "08d8ec1b0b757e8a537a14d708bd895e8829ac68",
+  "download_probe": {
+    "route": "versioned Hugging Face HTTP range request, bytes 0\u20131048575 of shard 1",
+    "status": 206,
+    "bytes": 1048576,
+    "bytes_per_second": 228807,
+    "reason": "diagnose slow initial model download; Xet download retained because still progressing"
+  },
+  "download_complete_at": "2026-09-14T06:01:47.772364+00:00",
+  "download_reported_seconds": 741.7,
+  "download_file_bytes": 8060896487
 }

@@ -11,9 +11,6 @@ RULE = ('Channel copper selects kestrel; channel violet selects marten. '
         'Uppercase the identifier. If priority is fast, append -Q after uppercasing; '
         'if priority is slow, append nothing. These operations apply independently '
         'for every identifier and combination.')
-REMINDER = ('Infer a single consistent protocol from all checked calls below. '
-            'Account for both input fields and all changes to the text argument '
-            'when applying it to the new identifier.\n')
 TRAIN_WORDS = ['nup', 'zelk', 'bimav', 'fosted']
 DEV_WORDS = ['wexi', 'jupnal', 'votkeris', 'zunpelavik']
 
@@ -33,7 +30,7 @@ def context():
     return 'Checked successful calls:\n' + '\n'.join(query(c)+' -> '+oracle(c) for c in cases(TRAIN_WORDS))
 
 def content(c, branch='none'):
-    extra = {'none':'', 'examples':REMINDER+context(), 'rule':RULE}[branch]
+    extra = {'none':'', 'examples':context(), 'rule':RULE}[branch]
     return SCHEMA+'\n'+extra+'\n'+query(c)
 
 def evaluation(seed=2026091401):
